@@ -29,8 +29,8 @@ Encryption is the process of scrambling data so that only the desired party can 
   ```
 <br>
 
-<hr>
 In modern time there are two main types of Cryptography algorithms used to protect our data over transfer, symmetric and asymmetric key encryption.
+<hr>
 
 <br>
 <b>Symmetric Key Encryption</b>
@@ -55,6 +55,7 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 </li>
  
 <br><br>
+<hr>
 
 # References
 - What is Encryption? | Types of Encryption. Cloudflare. (2020). Retrieved 3 September 2020, from https://www.cloudflare.com/learning/ssl/what-is-encryption/.
