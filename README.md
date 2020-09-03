@@ -22,7 +22,6 @@
 
 <b>Encryption</b>
 Encryption is the process of scrambling data so that only the desired party can understand that information. In more technical terms it is the process of converting plain text to cipher text.
-
 <br>
   ```
   "Hello"  --->  [encryption]  --->  "SNifgNi+uk0="
@@ -36,9 +35,11 @@ In modern time there are two main types of Cryptography algorithms used, symmetr
 <b>Symmetric Key Encryption</b>
 Symmetric key encryption, also known as a symmetric algorithm, is a type of encryption that uses one key to encrypt and decrypt data, a secret key, a public key and a private key. <i>"Keys are random bits that are used by the algorithm to transform the material into its encoded format and back to plain text." - (Encryption 101, 2020)</i>. Some advantages to using symmetric key encryption include its encryption speed and efficiency for large projects with disadvantages cosisting of its need to keep the secret key, this can become tricky when dealing with multiple locations.
 
+<br>
+
 <li><b>Symmetric Key Ciphers<b>
 <ol>- DES: A 64 bit block cipher that uses a 56-bit key.</ol>
-<ol>- Triple DES (3DES): uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further encrypted by using either a first or third key.<ol>
+<ol>- Triple DES (3DES): uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further encrypted by using either a first or third key.</ol>
 <ol>- AES: </ol>
 </li>
  
