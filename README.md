@@ -17,7 +17,7 @@
     - how data compression, encryption and hashing are used in the storage and transfer of data
   </ol>
 </i></li>
-
+<hr>
 <br>
 
 <b>Encryption</b>
@@ -29,6 +29,7 @@ Encryption is the process of scrambling data so that only the desired party can 
   ```
 <br>
 
+<hr>
 In modern time there are two main types of Cryptography algorithms used to protect our data over transfer, symmetric and asymmetric key encryption.
 
 <br>
@@ -43,7 +44,8 @@ Symmetric key encryption, also known as a symmetric algorithm, is a type of encr
 <ol>- Twofish: A symmetric block cipher which operates on 128 bit blocks and employs 16 rounds with key lengths up to 256 bits.</ol>
 <ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
 </li>
-  
+
+<hr>
 <br>
 <b>Asymmetric Key Encryption</b>
 Asymmetric key encryption, also known as an asymmetric algorithm, is a type of encryption that uses two seperate keys, with one being used to encrypt and the other to decrypt data. The key pair being referenced as a public key and private key. The public key is used to send the message and the private key being the one to decrypt said message. Some advantages to using asymmetric key encryption include its encryption extended functionality and its scalability for larger projects with its main disadvantage being the speed of the algorithm.
