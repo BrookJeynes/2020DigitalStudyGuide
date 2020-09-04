@@ -1,8 +1,7 @@
-# 2020DigitalStudyGuide
+# Topic 1: Digital methods for exchanging data
 
-# Topic 1
 <br> <br> <br>
-# Recognise and Describe </h2>
+<h1> Recognise and Describe </h1>
 
 <h2> Encryption </h2>
 
