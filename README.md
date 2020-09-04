@@ -20,7 +20,7 @@
 <hr>
 <br>
 
-<b>Encryption</b>
+<b>Encryption</b> <br>
 Encryption is the process of scrambling data so that only the desired party can understand that information. In more technical terms it is the process of converting plain text to cipher text.
 <br>
   ```
@@ -29,11 +29,13 @@ Encryption is the process of scrambling data so that only the desired party can 
   ```
 <br>
 
-<b>Compression</b>
+<b>Compression</b> <br>
 Compression is the process used to reduce the storage space a file or program uses, this allowing more files to fit into the same amount of space. This process is especially useful when transfering files over the internet due to larger files taking a longer time to transfer.
+<br> <br>
 
-<b>Hashing</b>
-  
+<b>Hashing</b> <br>
+Hashing is the process in which an input is turned into a fixed sized value. Hashing, unlike encryption, has an output that cannot be reversed to form the key. This means that if a hacker gained access to the hashed database they could only gain access to the keys, which cant be reversed to gain the passwords. However, someone with the password can hash theirs and check it against the stored hash to gain access.
+<br> <br>
 
 In modern time there are two main types of Cryptography algorithms used to protect our data over transfer, symmetric and asymmetric key encryption.
 <hr>
