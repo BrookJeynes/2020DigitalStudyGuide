@@ -1,10 +1,10 @@
 # 2020DigitalStudyGuide
 
 # Topic 1
+<br> <br> <br>
+# Recognise and Describe </h2>
 
-<h2> Recognise and Describe </h2>
-
-<h3> Encryption </h3>
+<h2> Encryption </h2>
 
 <li><i>Criteria: 
   <ol>
@@ -53,7 +53,6 @@ Symmetric key encryption, also known as a symmetric algorithm, is a type of encr
 <ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
 </li>
 
-<hr>
 <br>
 <b>Asymmetric Key Encryption</b>
 Asymmetric key encryption, also known as an asymmetric algorithm, is a type of encryption that uses two seperate keys, with one being used to encrypt and the other to decrypt data. The key pair being referenced as a public key and private key. The public key is used to send the message and the private key being the one to decrypt said message. Some advantages to using asymmetric key encryption include its encryption extended functionality and its scalability for larger projects with its main disadvantage being the speed of the algorithm.
@@ -66,7 +65,7 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 <br><br>
 <hr>
 
-<h3> Visual Communication </h3>
+<h2> Visual Communication </h2>
 
 <li><i>Criteria: 
   <ol>
