@@ -35,9 +35,9 @@ Compression is the process used to reduce the storage space a file or program us
 <b>Hashing</b> <br>
 Hashing is the process in which an input is turned into a fixed sized value. Hashing, unlike encryption, has an output that cannot be reversed to form the key. This means that if a hacker gained access to the hashed database they could only gain access to the keys, which cant be reversed to gain the passwords. However, someone with the password can hash theirs and check it against the stored hash to gain access.
 <br> <br>
+<hr>
 
 In modern time there are two main types of Cryptography algorithms used to protect our data over transfer, symmetric and asymmetric key encryption.
-<hr>
 
 <br>
 <b>Symmetric Key Encryption</b>
@@ -78,7 +78,20 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 <br>
 
 <b>Useability Principles</b> <br>
-Encryption is the process of scrambling data so that only the desired party can understand that information. In more technical terms it is the process of converting plain text to cipher text.
+There are seven main useability principles that will be focused on, hierachy, harmony, contrast, repetition, alignment, proximity and balance. The combination of these priciples help the users navigate though a webpage with ease giving them the best experience and allowing them to know how the webpage is meant to be used. These principles help visually and practically for the user with the use of colour design all the way to easy navigation for the blind (using screen readers)
+
+<br><li><b>Useability Principles</b>
+<ol>- Hierachy: .</ol>
+<ol>- Harmony: .</ol>
+<ol>- Contrast: .</ol>
+<ol>- Repetition: .</ol>
+<ol>- Alignment: .</ol>
+<ol>- Proximity: .</ol>
+<ol>- Balance: .</ol>
+</li>
+
+<hr>
+<br>
 
 # References
 - What is Encryption? | Types of Encryption. Cloudflare. (2020). Retrieved 3 September 2020, from https://www.cloudflare.com/learning/ssl/what-is-encryption/.
