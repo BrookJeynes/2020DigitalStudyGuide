@@ -66,6 +66,19 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 <br><br>
 <hr>
 
+<h3> Encryption </h3>
+
+<li><i>Criteria: 
+  <ol>
+    - how useability principles are used to inform solution development
+  </ol>
+  <ol>
+    - how the elements and principles of visual communication inform user interface development
+   </ol>
+</i></li>
+<hr>
+<br>
+
 # References
 - What is Encryption? | Types of Encryption. Cloudflare. (2020). Retrieved 3 September 2020, from https://www.cloudflare.com/learning/ssl/what-is-encryption/.
 
