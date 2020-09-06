@@ -59,6 +59,7 @@ Symmetric key encryption, also known as a symmetric algorithm, is a type of encr
 
 <br>
 **Asymmetric Key Encryption**
+
 Asymmetric key encryption, also known as an asymmetric algorithm, is a type of encryption that uses two separate keys, with one being used to encrypt and the other to decrypt data. The key pair being referenced as a public key and private key. The public key is used to send the message and the private key being the one to decrypt said message. Some advantages to using asymmetric key encryption include its encryption extended functionality and its scalability for larger projects with its main disadvantage being the speed of the algorithm.
 
 **<li>Asymmetric Key Ciphers**
