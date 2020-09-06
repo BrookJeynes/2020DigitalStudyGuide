@@ -71,8 +71,6 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 <br><br>
 
 - - -
-- - -
-- - -
 
 
 ## Visual Communication
@@ -88,8 +86,6 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 
 </i></li>
 
-- - -
-- - -
 - - -
 <br>
 
