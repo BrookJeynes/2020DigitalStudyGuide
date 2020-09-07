@@ -1,5 +1,7 @@
 # Topic 1: Digital methods for exchanging data
 
+<i>Written by Brook Jeynes and Brady Stroud</i>
+
 <br><br>
 
 # Recognise and Describe
