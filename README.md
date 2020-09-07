@@ -1,6 +1,6 @@
 # Topic 1: Digital methods for exchanging data
 
-<br> <br>
+<br><br>
 
 # Recognise and Describe
 
@@ -31,7 +31,6 @@ Encryption is the process of scrambling data so that only the desired party can 
 **Compression**
 
 Compression is the process used to reduce the storage space a file or program uses, this allowing more files to fit into the same amount of space. This process is especially useful when transferring files over the internet due to larger files taking a longer time to transfer.
-
 
 **Hashing**
 Hashing is the process in which an input is turned into a fixed sized value. Hashing, unlike encryption, has an output that cannot be reversed to form the key. This means that if a hacker gained access to the hashed database they could only gain access to the keys, which cant be reversed to gain the passwords. However, someone with the password can hash theirs and check it against the stored hash to gain access.
@@ -68,7 +67,6 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 
 </li>
 
-
 <br><br>
 
 - - -
@@ -84,7 +82,6 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
   <ol>
     - how the elements and principles of visual communication inform user interface development
    </ol>
-
 </i></li>
 
 - - -
@@ -109,15 +106,13 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 
 <li>**Usability Elements**
 
-<ol>- Space: "" - (School Resources, 2020)</ol>
-<ol>- Line: "" - (School Resources, 2020)</ol>
-<ol>- Colour: "" - (School Resources, 2020)</ol>
-<ol>- Shape: "" - (School Resources, 2020)</ol>
-<ol>- Texture: "" - (School Resources, 2020)</ol>
-<ol>- Tone: "" - (School Resources, 2020)</ol>     
-<ol>- Form: "" - (School Resources, 2020)</ol>
-<ol>- Proportion: "" - (School Resources, 2020)</ol>
-<ol>- Scale: "" - (School Resources, 2020)</ol>
+<ol>- Space: "Space can be used to support meaning and to zone groups of data. It can be used consistently to develop predictability throughout a user experience. It should not be considered to be just negative or blank. An interface without the use of structured space could be considered by a user to be too busy, confusing and not learnable." - (School Resources, 2020)</ol>
+<ol>- Line: "The use of the line element in interfaces is well defined and is naturally applied in the principles of alignment, proximity and hierarchy. A line can be thought of as a starting place, a marker or trigger to change. A simple horizontal line with textural and tone features within an interface such as a web page can provide separation or encapsulation." - (School Resources, 2020)</ol>
+<ol>- Colour and Tone: "The use of colour plays a significant role in developing data-driven applications and presentation of associated data. Aspects of colour that should be considered include: A: a consistent approach to colour choice throughout the application. This assists in branding and the predictability of the product for users. B: the compatibility of colours for ease of use. Some designers engage the colour wheel to identify compatible colour choices that support contrasting information as well as making the solution more accessible." - (School Resources, 2020)</ol>
+<ol>- Texture: "Texture is a truly artistic element of visual design and refers to the tactile or inferred visual features of an object. Texture can be used to assist in visual or physical improvements in accessibility, or in conjunction with other elements such as form and shapes to give emphasis or distinction. 
+" - (School Resources, 2020)</ol>  
+<ol>- Form: "Utilising the element of form within a user experience can give the feeling of depth and a multi-dimensional perspective. This could assist in highlighting components through the use of shadows on the surfaces or faces of objects. Form is usually applied in conjunction with other elements such as tone, texture and colour." - (School Resources, 2020)</ol>
+<ol>- Proportion and Scale: "Concepts such as the 'golden ratio' are used to demonstrate proportion in design work such as interfaces. This is a commonly occurring mathematical ratio that has been discovered to create aesthetically pleasing, natural-looking presentations." - (School Resources, 2020)</ol>
 
 </li>
 
@@ -126,14 +121,71 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 <br>
 
 # Explain
-# Network Transmission Details 
- 
-[Really helpful comic](https://jvns.ca/networking-zine.pdf) that covers most of these areas and explains difficult concepts simply.
+
+## Australian Privacy Act
+
+<li><i>Criteria: 
+
+  <ol>
+    - Australian Privacy Principles (2014) and ethics applicable to the use of personally identifiable or sensitive data from a digital systems perspective
+  </ol>
+
+</i></li>
+
+---
+
+<br>
+
+There are three main privacy principles that the exam will focus on, these consist of APP 1, 6 and 11
+
+<li>
+
+<ol>
+    APP 1 (Open and  transparent management of personal information): This principle highlights and prescribes efforts that organisations must take to meet the requirements of the Privacy Act and the Australian Privacy Principles in general. It provides advice to organisations about how to clearly communicate what information they collect, how they hold and use it, and who they can potentially disclose it to. This communication should also include ways in which individuals can access, correct or raise concerns about their information. The main communication strategy the principle suggests is the use of an organisational privacy policy. This policy must be accessible and free to all individuals at any time. For example, when accessing systems or exploring an organisational website, a privacy policy is generally an accessible document that is highlighted or mentioned. Adopting services provided by companies such as Apple also directs users back to privacy disclosure statements that they must acknowledge.
+</ol>
+<ol>
+    APP 6 (Use or disclosure of personal information): This principle outlines how organisations may use personal information and in what circumstances they are allowed to disclose it. In a general sense, data must not be disclosed for any use other than its primary purpose unless consent is provided or other laws require it to be disclosed. In most circumstances, permission for third-party disclosures is listed among privacy policies that users are asked to agree to before they receive a service. In all other circumstances, information that is either de-identified or not considered personal or sensitive to an individual may be released. For example, if an organisation wanted to share elements of your personal data with a third-party research group, they would have to acknowledge this in their privacy policy or actively seek your consent. 
+</ol>
+<ol>
+	APP 11 (Security of personal information): This principle outlines the requirement on organisations to take reasonable steps to protect an individual's personal information from misuse, interference, loss or unauthorised access or disclosure. Methods of security 
+employed include technical and human processes such as encryption, access privileges and restrictions on how the information is accessed — for example, processes around how a customer can call an organisation and 
+gain access to their information. Questions that substantiate a user's identity are among the methods used at present. The principle also denotes that actions should be taken to destroy or de-identify data that the organisation 
+no longer needs.
+</ol>
+
+</li>
 
 
 
+<br><br>
 
-## Latency
+---
+
+## Networking
+
+<li><i>Criteria: 
+
+  <ol>
+    - Network transmission principles, including latency, jitter, guarantee and timeliness of delivery, and protocols relevant to the transmission of data over the internet, e.g. HTTP, HTTPS, FTP, VPN, streaming and broadcasting data packets
+  </ol>
+<ol>
+	- Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
+</ol>
+
+</i></li>
+
+---
+
+<br>
+
+So what is a network? A network is essentially a group of computers that are connected, or linked, that are capable of sharing data, recourses and files with each other. This connection can be through many things but is most commonly linked though a cable/s, telephone lines, satellites or radio waves.
+
+A useful comic to go along with this section can be found [here](https://jvns.ca/networking-zine.pdf). This comic will cover most of the content explained below in a fun condensed way. It is recommended you still read this section as it goes into more detail about certain topics.
+
+
+
+**Latency**
+
 Usually measured in milliseconds, latency is the  time it takes for data or a request to go from the source to the destination. Latency depends on the type of Network, the type of packets being transferred.
 
 Latency can either be measured as the **Round Trip Time (RTT)** or the **Time to First Byte (TTFB)**:
@@ -142,21 +194,34 @@ Latency can either be measured as the **Round Trip Time (RTT)** or the **Time to
 
 **TTFB** is the amount of time it takes for the server to receive the first byte of data when the client sends a request.
 
+<br>
 
-## Jitter
+**Jitter**
+
 The deviation from true periodicity of a presumably periodic signal, often in relation to a reference clock signal. In clock recovery applications it is called timing jitter. Jitter may be caused by electromagnetic interference and crosstalk with carriers of other signals. Jitter can cause a display monitor to flicker, affect the performance of processors in personal computers, introduce clicks or other undesired effects in audio signals, and cause loss of transmitted data between network devices. The amount of tolerable jitter depends on the affected application.
 
-## Protocols
+<br>
+
+**Protocols**
+
 A protocol is is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity. The protocol defines the rules, syntax, semantics and synchronisation of communication and possible error recovery methods. Protocols may be implemented by hardware, software, or a combination of both.
- 
-### List of common protocols
-**HTTP:** HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.
 
-**HTTPS:** ... Secure is an extension of HTTP used for secure communication over networks. HTTPS is encrypted using TLS(Transport Layer Security). You can tell when your browser is communicating over HTTPS by the usually green lock icon in the address bar.Most browsers also display a warning to the user when visiting a site that contains a mixture of encrypted and unencrypted content.
+<li>**List of common protocols**</li>
 
-**FTP:** File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. 
+<ol>HTTP: HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.</ol>
 
-**VPN:** A **Virtual Private Network** extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, although not an inherent, part of a VPN connection.
+<ol>HTTPS: HyperText Transfer Protocol Secure is an extension of HTTP used for secure communication over networks. HTTPS is encrypted using TLS (Transport Layer Security). You can tell when your browser is communicating over HTTPS by the green lock icon in the address bar of most browsers. Most browsers also display a warning to the user when visiting a site that contains a mixture of encrypted and unencrypted content.</ol>
+
+<ol>FTP: File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. </ol>
+
+<ol>VPN: A Virtual Private Network extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, although not an inherent, part of a VPN connection.</ol>
+</li>
+
+<br>
+
+<br>
+
+---
 
 
 # References
@@ -173,7 +238,7 @@ A protocol is is a system of rules that allow two or more entities of a communic
 
 * Blowfish (cipher). En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Blowfish_(cipher)](https://en.wikipedia.org/wiki/Blowfish_(cipher)).
 
-* Katz, A., Ng, A., Bourg, P., William, C., Ross, E., Khim, J., & Kau, A. (2020). RSA Encryption | Brilliant Math & Science Wiki. [Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/](Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/).
+* Katz, A., Ng, A., Bourg, P., William, C., Ross, E., Khim, J., & Kau, A. (2020). RSA Encryption | Brilliant Math & Science Wiki. Brilliant.org. Retrieved 3 September 2020, from [https://brilliant.org/wiki/rsa-encryption/](Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/).
 
 * PMTEducation. (2020). OCR Computer Science A Level [Ebook] (1st ed., pp. 3-6). Retrieved 4 September 2020, from [https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf).
 
@@ -181,14 +246,24 @@ A protocol is is a system of rules that allow two or more entities of a communic
 
 * 2020 Guide to Network Latency (2020). Retrieved 3 September 2020, from   [https://www.dnsstuff.com/network-latency](https://www.dnsstuff.com/network-latency)
 
-* Communication Protocol (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Communication_protocol](https://en.wikipedia.org/wiki/Communication_protocol)
+* Communication Protocol (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Communication_protocol](https://en.wikipedia.org/wiki/Communication_protocol).
 
-* HTTPS (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTP)
+* *HTTPS*. En.wikipedia.org. (2020). Retrieved 6 September 2020, from https://en.wikipedia.org/wiki/HTTPS.
 
-* HTTP (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
+* HTTP.  En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
 
-* FTP (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/FTP](https://en.wikipedia.org/wiki/FTP)
+* FTP. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/FTP](https://en.wikipedia.org/wiki/FTP)
 
-* Jitter (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Jitter](https://en.wikipedia.org/wiki/Jitter)
+* Jitter. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Jitter](https://en.wikipedia.org/wiki/Jitter)
 
-* VPN (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/VPN](https://en.wikipedia.org/wiki/VPN)
+* VPN. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/VPN](https://en.wikipedia.org/wiki/VPN)
+
+* *Chapter 6: APP 6 — Use or disclosure of personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-6-app-6-use-or-disclosure-of-personal-information/.
+
+* *Read the Australian Privacy Principles*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles/read-the-australian-privacy-principles/.
+
+* *Guide to securing personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/#ftn4.
+
+* *Chapter 1: What is a Network?*. Fcit.usf.edu. (2020). Retrieved 7 September 2020, from https://fcit.usf.edu/network/chap1/chap1.htm.
+
+  
