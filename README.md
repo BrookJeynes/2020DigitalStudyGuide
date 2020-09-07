@@ -2,14 +2,15 @@
 
 <i>Written by Brook Jeynes and Brady Stroud</i>
 
-# Recognise and Describe
-
-## Encryption
+# Encryption
 
 * <i>Criteria: 
-	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
-    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
+	* Recognise and Describe
+  	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
+      * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
+      * How data compression, encryption and hashing are used in the storage and transfer of data</i>
+  * Symbolise, Analyse and Evaluate
+    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms
 
 - - -
 <br>
@@ -62,9 +63,8 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 ## Visual Communication
 
 * <i>Criteria: 
-	<ol> - how useability principles are used to inform solution development</ol>
-	<ol> - how the elements and principles of visual communication inform user interface development</ol>
-</i></li>
+  * How usability principles are used to inform solution development
+  * How the elements and principles of visual communication inform user interface development</i>
 
 - - -
 
@@ -105,17 +105,13 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 </li>
 
 - - -
-<br> <br>
+<br><br>
 
-# Explain
+# Australian Privacy Act
 
-## Australian Privacy Act
-
-<li><i>Criteria: 
-  <ol>
-    - Australian Privacy Principles (2014) and ethics applicable to the use of personally identifiable or sensitive data from a digital systems perspective
-  </ol>
-</i></li>
+* <i>Criteria: 
+  * Explain
+    * Australian Privacy Principles (2014) and ethics applicable to the use of personally identifiable or sensitive data from a digital systems perspective</i>
 
 ---
 
@@ -142,20 +138,14 @@ There are three main privacy principles that the exam will focus on, these consi
 
 ---
 
-## Networking
+# Networking
 
-<li><i>Criteria: 
+* <i>Criteria: 
+  * Explain
+    * Network transmission principles, including latency, jitter, guarantee and timeliness of delivery, and protocols relevant to the transmission of data over the internet, e.g. HTTP, HTTPS, FTP, VPN, streaming and broadcasting data packets
+    * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
 
-  <ol>
-    - Network transmission principles, including latency, jitter, guarantee and timeliness of delivery, and protocols relevant to the transmission of data over the internet, e.g. HTTP, HTTPS, FTP, VPN, streaming and broadcasting data packets
-  </ol>
-<ol>
-	- Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
-</ol>
-
-</i></li>
-
----
+</i>
 
 <br>
 
@@ -198,12 +188,29 @@ A protocol is is a system of rules that allow two or more entities of a communic
 <ol>- FTP: File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. </ol>
 
 <ol>- VPN: A Virtual Private Network extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, although not an inherent, part of a VPN connection.</ol>
+
 </li>
 
-<br> <br>
+<br><br>
 
 ---
 
+# Next Section
+
+* <i>Criteria: 
+  * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
+    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
+    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
+
+- - -
+
+
+
+<br>
+
+<br>
+
+---
 
 # References
 
