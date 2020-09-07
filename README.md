@@ -5,7 +5,7 @@
 # Encryption
 
 * <i>Criteria: 
-* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
+	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
     * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
     * How data compression, encryption and hashing are used in the storage and transfer of data
   
