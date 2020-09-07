@@ -198,7 +198,7 @@ There are three main privacy principles that the exam will focus on, these consi
 
 So what is a network? A network is essentially a group of computers that are connected, or linked, that are capable of sharing data, recourses and files with each other. This connection can be through many things but is most commonly linked though a cable/s, telephone lines, satellites or radio waves.
 
-A useful comic to go along with this section can be found [here](https://jvns.ca/networking-zine.pdf). This comic will cover most of the content explained below in a fun condensed way. It is recommended you still read this section as it goes into more detail about certain topics.
+> A useful comic to go along with this section can be found [here](https://jvns.ca/networking-zine.pdf). This comic will cover most of the content explained below in a fun condensed way. It is recommended you still read this section as it goes into more detail about certain topics.
 
 ---
 
@@ -238,7 +238,151 @@ A protocol is is a system of rules that allows two or more entities of a communi
 
 </li>
 
-<br><br>
+<br>
+
+# Methods of data exchange
+
+## REST API's
+### What is a REST API
+
+> **R**epresentational
+> **S**tate
+> **T**ransfer
+> 
+> **A**pplication 
+> **P**rogramming
+> **I**nterface
+
+Let’s say you’re trying to find videos about Batman on Youtube. You open up Youtube, type “Batman” into a search field, hit enter, and you see a list of videos about Batman. A REST API works in a similar way. You search for something, and you get a list of results back from the service you’re requesting from.
+
+An **API** is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
+
+**REST** determines how the API looks like. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
+
+Each URL is called a request while the data sent back to you is called a response.
+
+
+### The Anatomy Of A Request
+It’s important to know that a request is made up of four things:
+
+* The endpoint
+* The method
+* The headers
+* The data (or body)
+
+The **endpoint** (or route) is the url you request for. It follows this structure:
+
+`root-endpoint/?`
+
+The root-endpoint is the starting point of the API you’re requesting from. The root-endpoint of [Github’s API](https://developer.github.com/v3/) is https://api.github.com while the root-endpoint [Twitter’s API](https://dev.twitter.com/rest/reference) is https://api.twitter.com.
+The path determines the resource you’re requesting for. Think of it like an automatic answering machine that asks you to press 1 for a service, press 2 for another service, 3 for yet another service and so on.
+
+You can access paths just like you can link to parts of a website. To understand what paths are available to you, you need to look through the API documentation. 
+For example, let’s say you want to get a list of repositories by a certain user through Github’s API. The docs tells you to use the the following path to do so:
+`/users/:username/repos`
+
+Any colons (`:`) on a path denotes a variable. You should replace these values with actual values of when you send your request. In this case, you should replace `:username` with the actual username of the user you’re searching for. If I’m searching for my Github account, I’ll replace `:username` with `bradystroud`.
+
+The endpoint to get a list of my repos on Github is this:
+`https://api.github.com/users/bradystroud/repos`
+
+The final part of an endpoint is **query parameters**. Technically, query parameters are not part of the REST architecture, but you’ll see lots of APIs use them. So, to help you completely understand how to read and use API’s we’re also going to talk about them. Query parameters give you the option to modify your request with key-value pairs. They always begin with a question mark (`?`). Each parameter pair is then separated with an ampersand (&), like this:
+
+`?query1=value1&query2=value2`
+
+## JSON
+
+**REST API** responses are usually in JSON (**J**ava**S**cript **O**bject **N**otation)
+
+### JSON Syntax Rules
+* Data is in name/value pairs
+* Data is separated by commas
+* Curly braces hold objects
+* Square brackets hold arrays
+
+JSON **data** is written as name/value pairs
+A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
+
+`"firstName":"John"`
+
+JSON **objects** are written inside curly braces.
+Objects can contain multiple name/value pairs:
+
+`{"firstName":"John", "lastName":"Doe"}`
+
+JSON arrays are written inside square brackets.
+An array can contain objects:
+
+	"employees":[
+	    {"firstName":"John", "lastName":"Doe"}, 
+	    {"firstName":"Anna", "lastName":"Smith"}, 
+	    {"firstName":"Peter", "lastName":"Jones"}
+	  ]
+
+
+In the example above, the object `"employees"` is an array. It contains three objects.
+
+Each object is a record of a person (with a first name and a last name).
+
+Here is another example of JSON:
+
+	{
+	  "first name": "John",
+	  "last name": "Smith",
+	  "age": 25,
+	  "address": {
+	    "street address": "21 2nd Street",
+	    "city": "New York",
+	    "state": "NY",
+	    "postal code": "10021"
+	  },
+	  "phone numbers": [
+	    {
+	      "type": "home",
+	      "number": "212 555-1234"
+	    },
+	    {
+	      "type": "fax",
+	      "number": "646 555-4567"
+	    }
+	  ],
+	  "sex": {
+	    "type": "male"
+	  }
+	}
+
+
+## XML
+Coming soon...
+
+JSON vs XML
+		
+	<person>
+	  <firstName>John</firstName>
+	  <lastName>Smith</lastName>
+	  <age>25</age>
+	  <address>
+	    <streetAddress>21 2nd Street</streetAddress>
+	    <city>New York</city>
+	    <state>NY</state>
+	    <postalCode>10021</postalCode>
+	  </address>
+	  <phoneNumbers>
+	    <phoneNumber>
+	      <type>home</type>
+	      <number>212 555-1234</number>
+	    </phoneNumber>
+	    <phoneNumber>
+	      <type>fax</type>
+	      <number>646 555-4567</number>
+	    </phoneNumber>
+	  </phoneNumbers>
+	  <sex>
+	    <type>male</type>
+	  </sex>
+	</person>
+	
+<br>
 
 ---
 
@@ -246,10 +390,11 @@ A protocol is is a system of rules that allows two or more entities of a communi
 
 * <i>Criteria: 
   * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
+    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
     * How data compression, encryption and hashing are used in the storage and transfer of data</i>
 
 - - -
+
 
 
 
@@ -311,4 +456,6 @@ A protocol is is a system of rules that allows two or more entities of a communi
 
 * *Gronsfeld Cipher*. Rumkin.com. (2020). Retrieved 7 September 2020, from http://rumkin.com/tools/cipher/gronsfeld.php.
 
+* *Understanding Using REST API.* Smashing Magazine (2018) Retrieved 7 September 2020, from [https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+* *What is JSON?* w3schools.com Retrieved 7 September 2020, from [https://www.w3schools.com/whatis/whatis_json.asp](https://www.w3schools.com/whatis/whatis_json.asp)
   
