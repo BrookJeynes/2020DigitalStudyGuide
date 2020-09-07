@@ -97,8 +97,6 @@ Polyalphabetic
 
 </li> <br>
 
-<br>
-
 **One-time Pad Encryption Algorithms**
 
 
