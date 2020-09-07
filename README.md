@@ -208,7 +208,9 @@ The deviation from true periodicity of a presumably periodic signal, often in re
 
 A protocol is is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity. The protocol defines the rules, syntax, semantics and synchronisation of communication and possible error recovery methods. Protocols may be implemented by hardware, software, or a combination of both.
 
-<li>**List of common protocols**</li>
+<li>
+
+**List of common protocols**</li>
 
 <ol>HTTP: HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.</ol>
 
