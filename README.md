@@ -5,13 +5,12 @@
 # Encryption
 
 * <i>Criteria: 
-
-  * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
+* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
     * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
-    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
-
-  * Symbolise, Analyse and Evaluate
-    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms
+    * How data compression, encryption and hashing are used in the storage and transfer of data
+  
+* Symbolise, Analyse and Evaluate
+    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
 
 - - -
 <br>
@@ -44,12 +43,13 @@ In modern time there are two main types of Cryptography algorithms used to prote
 Symmetric key encryption, also known as a symmetric algorithm, is a type of encryption that uses one key to encrypt and decrypt data, a secret key, a public key and a private key. <i>"Keys are random bits that are used by the algorithm to transform the material into its encoded format and back to plain text." - ("Encryption 101", 2020)</i>. Some advantages to using symmetric key encryption include its encryption speed and efficiency for large projects with disadvantages consisting of its need to keep the secret key, this can become tricky when dealing with multiple locations. <br>
 
 * **Symmetric Key Ciphers**	
+	
 	<ol>- DES: A 64 bit block cipher that uses a 56-bit key.</ol>
 	<ol>- Triple DES (3DES): Uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further encrypted by using either a first or third key.</ol>
 	<ol>- AES: A variant of [the] Rijndael [block cipher], with a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits. - ("Advanced Encryption Standard", 2020)</ol>
 	<ol>- Twofish: A symmetric block cipher which operates on 128 bit blocks and employs 16 rounds with key lengths up to 256 bits.</ol>
-	<ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
-</li> <br>
+<ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
+	</li> <br>
 
 **Asymmetric Key Encryption**
 
@@ -60,7 +60,7 @@ Asymmetric key encryption, also known as an asymmetric algorithm, is a type of e
 </li> <br>
 	
 ---
-	
+
 **Caesar Cipher**
 	
 The Caesar Cipher is one of the earliest known ciphers to have been invented, it is known as a substitution cipher. It works in such a way where each letter in the message is shifted a certain number of places down the alphabet. For example, for a shift of 1 character:
@@ -74,7 +74,7 @@ The Caesar Cipher is one of the earliest known ciphers to have been invented, it
 
 **Polyalphabetic**
 
-A polyalphabetic cipher was the first main solution at a problem that had plagued ciphers for a while, frequency analysis. Not all characters in the alphabet are made equally and its because of this people were able to start analysing encrypted text looking for which characters appeared the most. This allowed them to map ciphered characters to uncyphered characters based on their frequency rating. An example of this is that the character "e" is the most common character in English so "if 'e' has been encrypted to 'X', then every 'X' was an 'e'. Hence, the most common letter in the ciphertext should be 'X'." - (Rodriguez-Clark, 2020)
+A polyalphabetic cipher was the first main solution at a problem that had plagued ciphers for a while, frequency analysis. Not all characters in the alphabet are made equally and its because of this people were able to start analysing encrypted text looking for which characters appeared the most. This allowed them to map ciphered characters to uncyphered characters based on their frequency rating. An example of this is that the character "e" is the most common character in English so <i>"if 'e' has been encrypted to 'X', then every 'X' was an 'e'. Hence, the most common letter in the ciphertext should be 'X'." - (Rodriguez-Clark, 2020)</i>
 
 Polyalphabetic ciphers incorporates multiple ciphers in one so a single plain text character will not always be the same cipher character. 
 
@@ -89,6 +89,19 @@ Polyalphabetic
 ```
 
  <br>
+
+**Polyalphabetic Ciphers**	
+
+<ol>- Vigenere: "The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword." - ("Vigenère cipher", 2020)</ol>
+<ol>- Gronsfield: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)</ol>
+
+</li> <br>
+
+<br>
+
+**One-time Pad Encryption Algorithms**
+
+
 
 - - -
 
@@ -290,5 +303,11 @@ A protocol is is a system of rules that allows two or more entities of a communi
 * Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography* (1st ed.). Fourth Estate and Doubleday.
 
 * Rodriguez-Clark, D. (2020). *Frequency Analysis: Breaking the Code*. Crypto Corner. Retrieved 7 September 2020, from  https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html.
+
+* Rodriguez-Clark, D. (2020). *Polyalphabetic Substitution Ciphers*. Crypto Corner. Retrieved 7 September 2020, from https://crypto.interactive-maths.com/polyalphabetic-substitution-ciphers.html.
+
+* *Vigenère cipher*. En.wikipedia.org. (2020). Retrieved 7 September 2020, from https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher.
+
+* *Gronsfeld Cipher*. Rumkin.com. (2020). Retrieved 7 September 2020, from http://rumkin.com/tools/cipher/gronsfeld.php.
 
   
