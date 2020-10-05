@@ -519,11 +519,17 @@ END
 
 **Pseudocode Standards**
 
-| Rule                                                         | Example                                          |
-| ------------------------------------------------------------ | ------------------------------------------------ |
-| **Keywords**: Keywords are written in bold capitals          | **IF, THEN, ELSE, OUTPUT, WRITE**                |
-| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping | IF condition THEN<br />    statements<br />ENDIF |
-|                                                              |                                                  |
+**Keywords**: Keywords are written in bold capitals
+
+
+
+
+
+| Rule                                                         | Example                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Keywords**: Keywords are written in bold capitals          | **IF, THEN, ELSE, OUTPUT, WRITE**                            |
+| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping | **IF** condition **THEN**<br />....statements<br />**ENDIF** |
+| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated | **IF** condition **THEN**<br />....statements<br />**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
 
 
 
