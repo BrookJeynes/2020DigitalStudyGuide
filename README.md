@@ -7,11 +7,11 @@
 * <i>Criteria: 
 	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
     	* features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
-    	* How data compression, encryption and hashing are used in the storage and transfer of data
-  
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
-
-    * how data compression, encryption and hashing are used in the storage and transfer of data
+    	  	* How data compression, encryption and hashing are used in the storage and transfer of data
+    	
+    	  * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
+  	
+    	  * how data compression, encryption and hashing are used in the storage and transfer of data
 	* Symbolise, Analyse and Evaluate
     	* Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
 
@@ -109,8 +109,9 @@ Polyalphabetic
 ## Visual Communication
 
 * <i>Criteria: 
-  * How usability principles are used to inform solution development
-  * How the elements and principles of visual communication inform user interface development</i>
+  * Recognise and Describe
+    * How usability principles are used to inform solution development
+    * How the elements and principles of visual communication inform user interface development</i>
 
 - - -
 
@@ -150,10 +151,10 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 	<ol>- Form: "Utilising the element of form within a user experience can give the feeling of depth and a multi-dimensional perspective. This could assist in 	highlighting components through the use of shadows on the surfaces or faces of objects. Form is usually applied in conjunction with other elements such as tone, texture and colour." - (School Resources, 2020)</ol>
 	<ol>- Proportion and Scale: "Concepts such as the 'golden ratio' are used to demonstrate proportion in design work such as interfaces. This is a commonly 	occurring mathematical ratio that has been discovered to create aesthetically pleasing, natural-looking presentations." - (School Resources, 2020)</ol>
 </li>
+	
+	<br><br>
 
 - - -
-<br><br>
-
 # Australian Privacy Act
 
 * <i>Criteria: 
@@ -192,9 +193,10 @@ There are three main privacy principles that the exam will focus on, these consi
 * <i>Criteria: 
   * Explain
     * Network transmission principles, including latency, jitter, guarantee and timeliness of delivery, and protocols relevant to the transmission of data over the internet, e.g. HTTP, HTTPS, FTP, VPN, streaming and broadcasting data packets
-    * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
 
 </i>
+
+---
 
 <br>
 
@@ -242,10 +244,29 @@ A protocol is is a system of rules that allows two or more entities of a communi
 
 <br>
 
+<br>
+
+---
+
 # Methods of data exchange
 
-## REST API's
-### What is a REST API
+* <i>Criteria: 
+  * Explain
+    * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
+  * Symbolise and Explain
+    * Secure data transmission techniques and processes, including the use of encryption, decryption, authentication, hashing and checksums
+  * Describe 
+    * Data using appropriate naming conventions, data formats and structures
+
+</i>
+
+---
+
+<br>
+
+**REST API's**
+
+What is a REST API?
 
 > **R**epresentational
 > **S**tate
@@ -263,8 +284,10 @@ An **API** is a set of rules that allow programs to talk to each other. The deve
 
 Each URL is called a request while the data sent back to you is called a response.
 
+<br>
 
-### The Anatomy Of A Request
+**The Anatomy Of A Request**
+
 It’s important to know that a request is made up of four things:
 
 * The endpoint
@@ -292,18 +315,28 @@ The final part of an endpoint is **query parameters**. Technically, query parame
 
 `?query1=value1&query2=value2`
 
-## JSON
+<br>
+
+**JSON**
 
 **REST API** responses are usually in JSON (**J**ava**S**cript **O**bject **N**otation)
 
-### JSON Syntax Rules
+<br>
+
+JSON Syntax Rules
+
 * Data is in name/value pairs
+
 * Data is separated by commas
+
 * Curly braces hold objects
+
 * Square brackets hold arrays
 
-JSON **data** is written as name/value pairs
-A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
+  <br>
+
+  JSON **data** is written as name/value pairs
+  A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
 
 `"firstName":"John"`
 
@@ -353,12 +386,16 @@ Here is another example of JSON:
 	  }
 	}
 
+<br>
 
-## XML
+**XML**
+
 Coming soon...
 
-JSON vs XML
-		
+<br>
+
+**JSON vs XML**
+
 	<person>
 	  <firstName>John</firstName>
 	  <lastName>Smith</lastName>
@@ -383,26 +420,23 @@ JSON vs XML
 	    <type>male</type>
 	  </sex>
 	</person>
-	
-<br>
+
+<br><br>
 
 ---
 
-# Next Section
+# Sub-Systems
 
 * <i>Criteria: 
-  * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
+  * Symbolise and Explain
+    * how application sub-systems, e.g. front end, back end, work together to constitute a solution
     * How data compression, encryption and hashing are used in the storage and transfer of data</i>
 
 - - -
 
-
-
-
 <br>
 
-<br>
+**REST API's**
 
 ---
 
