@@ -2,6 +2,33 @@
 
 <i>Written by Brook Jeynes and Brady Stroud</i>
 
+<br>
+
+<br>
+
+<br>
+
+# Contents
+
+<h3>Topic 1</h3>
+
+- [Encryption]()
+- Visual Communication
+- Australian Privacy Act
+- Networking
+- Methods of data exchange
+- Sub-Systems
+- Algorithms
+- Dataflow
+
+<h3>Topic 2</h3>
+
+<br>
+
+<br>
+
+<br>
+
 # Encryption
 
 * <i>Criteria: 
@@ -436,7 +463,96 @@ Coming soon...
 
 <br>
 
-**REST API's**
+info
+
+<br>
+
+<br>
+
+---
+
+# Algorithms
+
+* <i>Criteria: 
+
+  * Symbolise, Analyse and Evaluate
+    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms
+  * Symbolise and Explain
+    * The basic constructs of an algorithm, including assignment, sequence, selection, condition, iteration and modularisation 
+
+  </i>
+
+- - -
+
+<br>
+
+**Algorithms**
+
+An algorithm is a finite sequence of set tasks something, generally a computer, will follow to achieve a task set by the algorithm creator. Any set of tasks can be considered as an algorithm, it doesn't need to be computer related. A set of directions of a recipe to make a cake can be considered as algorithms because they are a list of tasks that achieve an end-goal.
+
+<br>
+
+**Pseudocode**
+
+Pseudocode is an artificial and universal language, or set of guidelines, created as a way to write prototype code that can be read by anyone and translated into any language. Like how a blueprint of a building can be read and used by everyone in the building process pseudocode is an application blueprint able to be read in any programming language. Here is an example of a simple pseudocode document:
+
+```pseudocode
+BEGIN 
+    SET ranNum = random(1, 10) 
+     
+    REPEAT 
+        OUTPUT "Guess the number between 1 and 10: " 
+        INPUT userNum 
+         
+        IF userNum > ranNum THEN 
+            OUTPUT "Lower" 
+        ELSE  
+            OUTPUT "Higher" 
+        ENDIF 
+    UNTIL userNum = ranNum 
+
+    OUTPUT "Correct" 
+END 
+```
+
+<br>
+
+**Pseudocode Standards**
+
+| Rule                                                         | Example                                          |
+| ------------------------------------------------------------ | ------------------------------------------------ |
+| **Keywords**: Keywords are written in bold capitals          | **IF, THEN, ELSE, OUTPUT, WRITE**                |
+| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping | IF condition THEN<br />    statements<br />ENDIF |
+|                                                              |                                                  |
+
+
+
+<br>
+
+---
+
+# Dataflow
+
+* <i>Criteria: 
+
+  * Symbolise
+    * Data flow through a system using data flow diagrams
+
+  </i>
+
+- - -
+
+<br>
+
+info
+
+
+
+
+
+
+
+
 
 ---
 
@@ -447,51 +563,29 @@ Coming soon...
 - Encryption 101. EDUCAUSE. (2020). Retrieved 3 September 2020, from [https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101).
 
 * Stubbs, R. (2020). An Overview of Symmetric Encryption and the Key Lifecycle. Cryptomathic.com. Retrieved 3 September 2020, from [https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle](https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle).
-
 * Advanced Encryption Standard. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
-
 * S-box. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/S-box](https://en.wikipedia.org/wiki/S-box).
-
 * Blowfish (cipher). En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Blowfish_(cipher)](https://en.wikipedia.org/wiki/Blowfish_(cipher)).
-
 * Katz, A., Ng, A., Bourg, P., William, C., Ross, E., Khim, J., & Kau, A. (2020). RSA Encryption | Brilliant Math & Science Wiki. Brilliant.org. Retrieved 3 September 2020, from [https://brilliant.org/wiki/rsa-encryption/](Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/).
-
 * PMTEducation. (2020). OCR Computer Science A Level [Ebook] (1st ed., pp. 3-6). Retrieved 4 September 2020, from [https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf).
-
 * Nielsen, J. (2020). Usability 101: Introduction to Usability. Nielsen Norman Group. Retrieved 4 September 2020, from [https://www.nngroup.com/articles/usability-101-introduction-to-usability/](https://www.nngroup.com/articles/usability-101-introduction-to-usability/).
-
 * 2020 Guide to Network Latency (2020). Retrieved 3 September 2020, from   [https://www.dnsstuff.com/network-latency](https://www.dnsstuff.com/network-latency)
-
 * Communication Protocol (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Communication_protocol](https://en.wikipedia.org/wiki/Communication_protocol).
-
 * *HTTPS*. En.wikipedia.org. (2020). Retrieved 6 September 2020, from https://en.wikipedia.org/wiki/HTTPS.
-
 * HTTP.  En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
-
 * FTP. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/FTP](https://en.wikipedia.org/wiki/FTP)
-
 * Jitter. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Jitter](https://en.wikipedia.org/wiki/Jitter)
-
 * VPN. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/VPN](https://en.wikipedia.org/wiki/VPN)
-
 * *Chapter 6: APP 6 — Use or disclosure of personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-6-app-6-use-or-disclosure-of-personal-information/.
-
 * *Read the Australian Privacy Principles*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles/read-the-australian-privacy-principles/.
-
 * *Guide to securing personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/#ftn4.
-
 * *Chapter 1: What is a Network?*. Fcit.usf.edu. (2020). Retrieved 7 September 2020, from https://fcit.usf.edu/network/chap1/chap1.htm.
-
 * Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography* (1st ed.). Fourth Estate and Doubleday.
-
 * Rodriguez-Clark, D. (2020). *Frequency Analysis: Breaking the Code*. Crypto Corner. Retrieved 7 September 2020, from  https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html.
-
 * Rodriguez-Clark, D. (2020). *Polyalphabetic Substitution Ciphers*. Crypto Corner. Retrieved 7 September 2020, from https://crypto.interactive-maths.com/polyalphabetic-substitution-ciphers.html.
-
 * *Vigenère cipher*. En.wikipedia.org. (2020). Retrieved 7 September 2020, from https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher.
-
 * *Gronsfeld Cipher*. Rumkin.com. (2020). Retrieved 7 September 2020, from http://rumkin.com/tools/cipher/gronsfeld.php.
-
 * *Understanding Using REST API.* Smashing Magazine (2018) Retrieved 7 September 2020, from [https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 * *What is JSON?* w3schools.com Retrieved 7 September 2020, from [https://www.w3schools.com/whatis/whatis_json.asp](https://www.w3schools.com/whatis/whatis_json.asp)
-  
+* Brogan, J. (2020). *Defining Algorithms—a Conversational Explainer*. Slate Magazine. Retrieved 5 October 2020, from https://slate.com/technology/2016/02/whats-the-deal-with-algorithms.html.
+* Macharia, N. (2020). *How to write Pseudocode: A beginner’s guide*. Medium. Retrieved 5 October 2020, from https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698.
