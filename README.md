@@ -524,9 +524,12 @@ END
 
 | Rule                                                         | Example                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Keywords**: Keywords are written in bold capitals          | **IF, THEN, ELSE, OUTPUT, WRITE**                            |
-| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping | **IF** condition **THEN**<br />....statements<br />**ENDIF** |
-| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated | **IF** condition **THEN**<br />....statements<br />**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
+| **Keywords**: Keywords are written in bold capitals.         | **IF, THEN, ELSE, OUTPUT, WRITE**                            |
+| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping. <i>(Due to formatting issues an indent will be represented by 4 "." in a row, these are not usually written with an indent in pseudocode)</i> | **IF** condition **THEN**<br />....statements<br />**ENDIF** |
+| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated. | **IF** condition **THEN**<br />....statements<br />**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
+| **Clarity**: Pseudocode should clearly indicate what is happening at each step, including formulas of calculations | "**CALCULATE** net" is not as clear as "**CALCULATE** net = gross - tax" |
+|                                                              |                                                              |
+|                                                              |                                                              |
 
 
 
