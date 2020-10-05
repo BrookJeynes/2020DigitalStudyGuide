@@ -353,17 +353,14 @@ The final part of an endpoint is **query parameters**. Technically, query parame
 JSON Syntax Rules
 
 * Data is in name/value pairs
-
 * Data is separated by commas
-
 * Curly braces hold objects
-
 * Square brackets hold arrays
 
-  <br>
+<br>
 
-  JSON **data** is written as name/value pairs
-  A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
+JSON **data** is written as name/value pairs
+A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
 
 `"firstName":"John"`
 
