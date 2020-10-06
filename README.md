@@ -23,7 +23,7 @@
 
 # Topic 1: Digital methods for exchanging data
 
-<br><br>
+<br>
 
 # Encryption
 
@@ -511,8 +511,6 @@ END
 <br>
 
 **Pseudocode Standards**
-
-**Keywords**: Keywords are written in bold capitals
 
 
 
