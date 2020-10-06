@@ -1,10 +1,6 @@
-# Topic 1: Digital methods for exchanging data
+# Digital Solutions 2020 Final Exam Guide
 
 <i>Written by Brook Jeynes and Brady Stroud</i>
-
-<br>
-
-<br>
 
 <br>
 
@@ -26,8 +22,7 @@
 <br>
 
 <br>
-
-<br>
+# Topic 1: Digital methods for exchanging data
 
 # Encryption
 
