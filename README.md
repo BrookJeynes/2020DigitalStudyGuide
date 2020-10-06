@@ -21,8 +21,9 @@
 
 <br>
 
-<br>
 # Topic 1: Digital methods for exchanging data
+
+<br><br>
 
 # Encryption
 
