@@ -448,11 +448,13 @@ Coming soon...
 
 * <i>Criteria: 
   * Symbolise and Explain
-    * how application sub-systems, e.g. front end, back end, work together to constitute a solution
+    * how application sub-systems, e.g. front end, back end, work together to constitute a solution</i>
 
 - - -
 
 <br>
+
+**Sub-Systems**
 
 In computing terms front-end and back-end refer to the sections that make up a software project. The front-end, or presentation layer, refers to anything the user can see. This generally includes the UI or the buttons and inputs the user interacts with. The back-end, or data access layer, is what runs the front-end of the application. The back-end can take care of any data that needs transferring or it can make the buttons and inputs from the front-end functional. When both combined they make a visual appeasing and functional application for the user to interact with.
 
