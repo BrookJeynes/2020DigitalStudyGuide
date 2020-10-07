@@ -572,9 +572,9 @@ Using any convention’s DFD rules or guidelines, the symbols depict the four co
 
 **Rules of a Dataflow Diagram**
 
-![Machine generated alternative text: Rule of Data Flow  One of the rule for developing DFD is that all flow must begin with and end at a processing step. This is quite  logical, because data can't transform on its own with being process. By using the thumb rule, it is quite easily  to identify the illegal data flows and correct them in a DFD.  Wrong  Entity A  Entity A  Entity B  Entity A  Right  Ento A  Entity A  Description  An entity cannot provide data to another entity  Entty B  without some processing occurred.  Data cannot move directly from an entity to a  data story without being processed.  Data cannot move directly from a data store  Entity A  without being processed.  Data cannot move directly from one data store  to another without being processed. ](file:///C:/Users/bjeyn/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![img](https://i.imgur.com/77i1cCr.png)
 
-![Machine generated alternative text: Other frequently-made mistakes in DFD  A second class of DFD mistakes arise when the outputs from one processing step do not match its inputs and  they can be classified as:  alack holes - A processing step may have input flows but no output flows.  Miracles - A processing step may have output flows but no input flows.  • Grey holes - A processing step may have outputs that are greater than the sum of its inputs  Hpufs buf Outputs:  A black hole  Em  nts  Outputs but no inputs:  ate Env ee  Emphy ee  Ban k St  Inputs no' sutfcient to  product A ](file:///C:/Users/bjeyn/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+![img](https://i.imgur.com/wBARPju.png)
 
 <br>
 
