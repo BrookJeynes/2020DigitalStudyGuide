@@ -8,7 +8,7 @@
 
 <h3>Topic 1</h3>
 
-- [Encryption]()
+- Encryption
 - Visual Communication
 - Australian Privacy Act
 - Networking
@@ -28,14 +28,15 @@
 # Encryption
 
 * <i>Criteria: 
-	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
+	
+  * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
     	* features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
       	  	* How data compression, encryption and hashing are used in the storage and transfer of data
       	
       	  * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
   		
-      	  * how data compression, encryption and hashing are used in the storage and transfer of data
-	* Symbolise, Analyse and Evaluate
+	    	  * how data compression, encryption and hashing are used in the storage and transfer of data
+  * Symbolise, Analyse and Evaluate
     	
     	* Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
 
@@ -279,6 +280,7 @@ A protocol is is a system of rules that allows two or more entities of a communi
     * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
   * Symbolise and Explain
     * Secure data transmission techniques and processes, including the use of encryption, decryption, authentication, hashing and checksums
+    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
   * Describe 
     * Data using appropriate naming conventions, data formats and structures
 
@@ -451,7 +453,6 @@ Coming soon...
 * <i>Criteria: 
   * Symbolise and Explain
     * how application sub-systems, e.g. front end, back end, work together to constitute a solution
-    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
 
 - - -
 
