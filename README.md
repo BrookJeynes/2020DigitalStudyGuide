@@ -30,12 +30,13 @@
 * <i>Criteria: 
 	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
     	* features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
-    	  	* How data compression, encryption and hashing are used in the storage and transfer of data
-    	
-    	  * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
-  	
-    	  * how data compression, encryption and hashing are used in the storage and transfer of data
+      	  	* How data compression, encryption and hashing are used in the storage and transfer of data
+      	
+      	  * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
+  		
+      	  * how data compression, encryption and hashing are used in the storage and transfer of data
 	* Symbolise, Analyse and Evaluate
+    	
     	* Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
 
 - - -
@@ -512,20 +513,21 @@ END
 
 **Pseudocode Standards**
 
-
-
-
-
 | Rule                                                         | Example                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :----------------------------------------------------------- | ------------------------------------------------------------ |
 | **Keywords**: Keywords are written in bold capitals.         | **IF, THEN, ELSE, OUTPUT, WRITE**                            |
 | **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping. <i>(Due to formatting issues an indent will be represented by 4 "." in a row, these are not usually written with an indent in pseudocode)</i> | **IF** condition **THEN**<br />....statements<br />**ENDIF** |
-| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated. | **IF** condition **THEN**<br />....statements<br />**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
-| **Clarity**: Pseudocode should clearly indicate what is happening at each step, including formulas of calculations | ```**CALCULATE** net``` is not as clear as ```**CALCULATE** net = gross - tax``` |
-|                                                              |                                                              |
-|                                                              |                                                              |
+| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated. | **IF** condition **THEN**<br />....statements<br />**ELSE**<br>...statemen<br>**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
+| **Clarity**: Pseudocode should clearly indicate what is happening at each step, including formulas of calculations. | ```CALCULATE net``` is not as clear as ```CALCULATE net = gross - tax``` |
+| **Abbreviate**: Use a more abbreviated version in which more memory cells used to store the input are given program-like names. | ```INPUT num1``` is preferred over ```INPUT first number```  |
+| **Naming Conventions**: Use camel case naming conventions for variables, sub-routines, methods and functions. | - newString;<br>- getNewString()<br>- myVariableName;        |
+| **Modularisation**: Pseudocode always starts and ends with the BEGIN and END keywords. | Main Algorithm<br>**BEGIN**<br>....statements<br>**END**<br><br>Subroutines<br>**BEGIN** name<br>....statements<br>**END** name |
+| **Variables**: Programmers use names without spaces for variables. | ```INPUT num1``` <br>```SET num1 to 1```                     |
+| **Input, Assign, Output**: To input, assign or output values, common words can be used as keywords. | - **INPUT** mark<br>- **WRITE** "The total is" count<br>- **PRINT** x, y<br>- **DISPLAY** name, result <br>- **READ** name from list.txt<br>- **OUTPUT** average |
+| **Assignment**: Pseudocode should clearly indicate what is happening at each step. | **CALCULATE** net = gross - tax                              |
+| **Iteration**: Control structures to provide repetition.     | **REPEAT**<br>....statements<br>**UNTIL** condition<br><br>**WHILE** condition<br>....statements<br>**ENDWHILE**<br><br>**FOR** count = startVal **TO** endVal<br>....statements<br>**NEXT** count |
 
-
+<i>Content Source: Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode</i>
 
 <br>
 
@@ -589,3 +591,4 @@ info
 * *What is JSON?* w3schools.com Retrieved 7 September 2020, from [https://www.w3schools.com/whatis/whatis_json.asp](https://www.w3schools.com/whatis/whatis_json.asp)
 * Brogan, J. (2020). *Defining Algorithms—a Conversational Explainer*. Slate Magazine. Retrieved 5 October 2020, from https://slate.com/technology/2016/02/whats-the-deal-with-algorithms.html.
 * Macharia, N. (2020). *How to write Pseudocode: A beginner’s guide*. Medium. Retrieved 5 October 2020, from https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698.
+*  Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode. Retrieved 7 October 2020, from content library 
