@@ -458,7 +458,7 @@ Coming soon...
 
 <br>
 
-info
+In computing terms front-end and back-end refer to the sections that make up a software project. The front-end, or presentation layer, refers to anything the user can see. This generally includes the UI or the buttons and inputs the user interacts with. The back-end, or data access layer, is what runs the front-end of the application. The back-end can take care of any data that needs transferring or it can make the buttons and inputs from the front-end functional. When both combined they make a visual appeasing and functional application for the user to interact with.
 
 <br>
 
@@ -547,15 +547,40 @@ END
 
 <br>
 
-info
+**Dataflow Diagrams**
 
+A dataflow diagram is a way to plan and understand the flow of data through a process or system. Using predefined shapes, like rectangles and arrows, inputs, outputs and data routes can all be represented in a neat and accessible way. DFD's can be hand drawn simple level systems up to complex multilevel diagram.
 
+<br>
 
+**Dataflow Diagram Example**
 
+![data flow diagram](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/data-flow-diagram-7.svg)
 
+<br>
 
+**Symbols and Representations**
 
+Using any convention’s DFD rules or guidelines, the symbols depict the four components of data flow diagrams.
 
+1. **External entity:** an outside system that sends or receives data, communicating with the  system being diagrammed. They are the sources and destinations of  information entering or leaving the system. They might be an outside  organization or person, a computer system or a business system. They are also known as terminators, sources and sinks or actors. They are  typically drawn on the edges of the diagram. 
+2. **Process:** any process that changes the data, producing an output. It might perform  computations, or sort data based on logic, or direct the data flow based on business rules. A short label is used to describe the process, such  as “Submit payment.”
+3. **Data store:** files or  repositories that hold information for later use, such as a database  table or a membership form. Each data store receives a simple label,  such as “Orders.”
+4. **Data flow:** the route that  data takes between the external entities, processes and data stores. It  portrays the interface between the other components and is shown with  arrows, typically labeled with a short data name, like “Billing  details.” 
+
+<i>Content source: "What is a Data Flow Diagram", 2020</i>
+
+<br>
+
+**Rules of a Dataflow Diagram**
+
+![Machine generated alternative text: Rule of Data Flow  One of the rule for developing DFD is that all flow must begin with and end at a processing step. This is quite  logical, because data can't transform on its own with being process. By using the thumb rule, it is quite easily  to identify the illegal data flows and correct them in a DFD.  Wrong  Entity A  Entity A  Entity B  Entity A  Right  Ento A  Entity A  Description  An entity cannot provide data to another entity  Entty B  without some processing occurred.  Data cannot move directly from an entity to a  data story without being processed.  Data cannot move directly from a data store  Entity A  without being processed.  Data cannot move directly from one data store  to another without being processed. ](file:///C:/Users/bjeyn/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+
+![Machine generated alternative text: Other frequently-made mistakes in DFD  A second class of DFD mistakes arise when the outputs from one processing step do not match its inputs and  they can be classified as:  alack holes - A processing step may have input flows but no output flows.  Miracles - A processing step may have output flows but no input flows.  • Grey holes - A processing step may have outputs that are greater than the sum of its inputs  Hpufs buf Outputs:  A black hole  Em  nts  Outputs but no inputs:  ate Env ee  Emphy ee  Ban k St  Inputs no' sutfcient to  product A ](file:///C:/Users/bjeyn/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+
+<br>
+
+<br>
 
 ---
 
@@ -593,3 +618,6 @@ info
 * Brogan, J. (2020). *Defining Algorithms—a Conversational Explainer*. Slate Magazine. Retrieved 5 October 2020, from https://slate.com/technology/2016/02/whats-the-deal-with-algorithms.html.
 * Macharia, N. (2020). *How to write Pseudocode: A beginner’s guide*. Medium. Retrieved 5 October 2020, from https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698.
 *  Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode. Retrieved 7 October 2020, from content library 
+*  *Data access layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Data_access_layer.
+*  *Presentation layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Presentation_layer.
+*  *What is a Data Flow Diagram*. Lucidchart.com. (2020). Retrieved 8 October 2020, from https://www.lucidchart.com/pages/data-flow-diagram.
