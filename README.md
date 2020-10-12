@@ -19,6 +19,8 @@
 
 <h3>Topic 2</h3>
 
+- Data Delivery
+
 <br>
 
 # Topic 1: Digital methods for exchanging data
@@ -580,6 +582,51 @@ Using any convention’s DFD rules or guidelines, the symbols depict the four co
 
 <br>
 
+# Topic 2: Complex digital data exchange problems and solution requirements
+
+# Data Delivery
+
+* <i>Criteria: 
+
+  * Analyse Problems and Information to Determine
+    * Factors and risks that affect data security, including confidentiality, integrity and availability, and privacy
+  * Analyse, Evaluate and make Refinements to
+    * Data to ensure completeness, consistency and integrity</i>
+
+- - -
+
+<br>
+
+**CIA Triad**
+
+The websites we use everyday should be secure and allow data to be sent from computer to server without having to worry about an attack or a breach of ones data, one of the main ways a website implements security is with the CIA triad.
+
+> **C**onfidentiality
+> **I**ntegrity
+> **A**vailability
+
+<br>
+
+**Confidentiality**
+
+Confidentiality refers to how a business or organisation keeps its data private and unreachable by any outside organisations. This is generally done by only allowing those who need the file access while preventing unauthorised members access. Confidentiality can be violated for gain in many ways such as a direct attack designed to give the attacker unauthorised access to certain files or data stores. Confidentiality can also be violated unintentionally and by accident by everyday employees using weak passwords or sharing accounts.
+
+<br>
+
+**Integrity**
+
+Integrity refers to ensuring any data, whether in transit or not, is not modified or tampered with in any way, with or without malicious intent. Integrity of data can be checked using methods such as hashing, digital signatures, digital certificates and many various intrusion detection systems.
+
+<br>
+
+**Availability**
+
+Availability refers to the guarantee that the network, site or application will be up and running whenever a user will need to use it. There are many things that could cause this guarantee no fail, simple things that can affect this are power outages, software/system fails or natural disasters. However, this guarantee can be violated on purpose by attackers using various methods to shut down and overload the system of said attack. 
+
+<br>
+
+<br>
+
 ---
 
 # References
@@ -619,3 +666,4 @@ Using any convention’s DFD rules or guidelines, the symbols depict the four co
 *  *Data access layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Data_access_layer.
 *  *Presentation layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Presentation_layer.
 *  *What is a Data Flow Diagram*. Lucidchart.com. (2020). Retrieved 8 October 2020, from https://www.lucidchart.com/pages/data-flow-diagram.
+*  Walkowski, D. (2020). *What Is The CIA Triad?*. F5 Labs. Retrieved 13 October 2020, from https://www.f5.com/labs/articles/education/what-is-the-cia-triad.
