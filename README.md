@@ -1,6 +1,12 @@
 # Topic 1: Digital methods for exchanging data
 
-<i>Written by Brook Jeynes and Brady Stroud</i>
+*Written by Brook Jeynes and Brady Stroud*[^bignote]
+
+[^bignote]: Please refer to these sites before contributing:
+
+	* [https://docs.github.com/en/free-pro-team@latest/github/	writing-on-github](https://docs.github.com/en/free-pro-	team@latest/github/writing-on-github)
+	* [https://github.com/adam-p/markdown-here/wiki/Markdown-	Cheatsheet](https://docs.github.com/en/free-pro-team@latest/	github/writing-on-github)
+	* [https://www.markdownguide.org/extended-syntax/#fn:1]	(https://www.markdownguide.org/extended-syntax/#fn:1)
 
 # Encryption
 
@@ -224,13 +230,24 @@ The deviation from true periodicity of a presumably periodic signal, often in re
 
 A protocol is is a system of rules that allows two or more entities of a communications system to transmit information via any kind of variation of a physical quantity. The protocol defines the rules, syntax, semantics and synchronisation of communication and possible error recovery methods. Protocols may be implemented by hardware, software, or a combination of both.
 
+
+
+
 <li>
 
 **List of common protocols**</li>
 
-<ol>- HTTP: HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.</ol>
+<ol>- HTTP: HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. Useful link: [https://howhttps.works/why-do-we-need-https/?fbclid=IwAR1PDiZsEIvG6Kc-xsSOnSpcTNT3fEpMHIqmFgyc_4EtZtCWySIMsAb2npk
+](https://howhttps.works/why-do-we-need-https/?fbclid=IwAR1PDiZsEIvG6Kc-xsSOnSpcTNT3fEpMHIqmFgyc_4EtZtCWySIMsAb2npk)
+</ol>
 
 <ol>- HTTPS: HyperText Transfer Protocol Secure is an extension of HTTP used for secure communication over networks. HTTPS is encrypted using TLS (Transport Layer Security). You can tell when your browser is communicating over HTTPS by the green lock icon in the address bar of most browsers. Most browsers also display a warning to the user when visiting a site that contains a mixture of encrypted and unencrypted content.</ol>
+
+<ol>- TCP: Transmission Control Protocol is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.</ol>
+
+<ol>- IP: Internet Protocol  is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet.
+
+IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.</ol>
 
 <ol>- FTP: File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. </ol>
 
@@ -245,7 +262,7 @@ A protocol is is a system of rules that allows two or more entities of a communi
 ## REST API's
 ### What is a REST API
 
-> **R**epresentational
+> **R****e**presentational
 > **S**tate
 > **T**ransfer
 > 
@@ -384,6 +401,36 @@ JSON vs XML
 	
 <br>
 
+### Similarities and Differences
+
+#### [^1]Similarities:
+* Both JSON and XML can be used to receive data from a web server.
+* Both JSON and XML are "self describing" (human readable)
+* Both JSON and XML are hierarchical (values within values)
+* Both JSON and XML can be parsed and used by lots of programming languages
+
+#### Differences:
+* JSON doesn't use end tags
+* JSON is shorter
+* JSON is quicker to read and write
+* JSON can use arrays
+
+### Why JSON is Better:
+#### Using XML
+
+* Fetch an XML document
+* Use the XML DOM to loop through the document
+* Extract values and store in variables
+
+#### Using JSON
+
+* Fetch a JSON string
+* Parse the JSON string
+
+[^1]: A question on the 2nd mock assessment in the short response section asked about this stuff so I though I'd add it.
+
+# Methods of data exchange
+
 ---
 
 # Next Section
@@ -403,6 +450,7 @@ JSON vs XML
 <br>
 
 ---
+
 
 # References
 
