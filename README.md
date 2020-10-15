@@ -1,8 +1,8 @@
 # Topic 1: Digital methods for exchanging data
 
-*Written by Brook Jeynes and Brady Stroud*[^bignote]
+*Written by Brook Jeynes and Brady Stroud*
 
-[^bignote]: Please refer to these sites before contributing:
+#### Please refer to these sites before contributing:
 
 	* [https://docs.github.com/en/free-pro-team@latest/github/	writing-on-github](https://docs.github.com/en/free-pro-	team@latest/github/writing-on-github)
 	* [https://github.com/adam-p/markdown-here/wiki/Markdown-	Cheatsheet](https://docs.github.com/en/free-pro-team@latest/	github/writing-on-github)
@@ -405,7 +405,7 @@ JSON vs XML
 
 ### Similarities and Differences
 
-#### [^1]Similarities:
+#### Similarities:
 * Both JSON and XML can be used to receive data from a web server.
 * Both JSON and XML are "self describing" (human readable)
 * Both JSON and XML are hierarchical (values within values)
@@ -428,8 +428,6 @@ JSON vs XML
 
 * Fetch a JSON string
 * Parse the JSON string
-
-[^1]: A question on the 2nd mock assessment in the short response section asked about this stuff so I though I'd add it.
 
 # Methods of data exchange
 
