@@ -1,19 +1,41 @@
-# Topic 1: Digital methods for exchanging data
+# Digital Solutions 2020 Final Exam Guide
 
 *Written by Brook Jeynes and Brady Stroud*
+
+
+# Contents
+
+<h3>Topic 1</h3>
+
+- Encryption
+- Visual Communication
+- Australian Privacy Act
+- Networking
+- Methods of data exchange
+- Sub-Systems
+- Algorithms
+- Dataflow
+
+<h3>Topic 2</h3>
+
+- Data Delivery
+
+<br>
+
+# Topic 1: Digital methods for exchanging data
+
+<br>
 
 # Encryption
 
 * <i>Criteria: 
-	* Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
-    	* features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
-    	* How data compression, encryption and hashing are used in the storage and transfer of data
-  
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
 
-    * how data compression, encryption and hashing are used in the storage and transfer of data
-	* Symbolise, Analyse and Evaluate
-    	* Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
+  * Recognise and Describe 
+     * Encryption and authentication strategies appropriate for securing data transmissions and their differences
+     * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and assymetric (RSA) encryption algorithms
+     	  	* How data compression, encryption and hashing are used in the storage and transfer of data 	
+  * Symbolise, Analyse and Evaluate
+    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms</i>
 
 - - -
 <br>
@@ -48,10 +70,10 @@ Symmetric key encryption, also known as a symmetric algorithm, is a type of encr
 * **Symmetric Key Ciphers**	
 	
 	<ol>- DES: A 64 bit block cipher that uses a 56-bit key.</ol>
-	<ol>- Triple DES (3DES): Uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further encrypted by using either a first or third key.</ol>
-	<ol>- AES: A variant of [the] Rijndael [block cipher], with a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits. - ("Advanced Encryption Standard", 2020)</ol>
+	<ol>- Triple DES (3DES): Uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further 	encrypted by using either a first or third key.</ol>
+	<ol>- AES: A variant of [the] Rijndael [block cipher], with a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits. - ("Advanced Encryption 	Standard", 2020)</ol>
 	<ol>- Twofish: A symmetric block cipher which operates on 128 bit blocks and employs 16 rounds with key lengths up to 256 bits.</ol>
-	<ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
+	<ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant 	S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
 	</li> <br>
 
 **Asymmetric Key Encryption**
@@ -109,8 +131,9 @@ Polyalphabetic
 ## Visual Communication
 
 * <i>Criteria: 
-  * How usability principles are used to inform solution development
-  * How the elements and principles of visual communication inform user interface development</i>
+  * Recognise and Describe
+    * How usability principles are used to inform solution development
+    * How the elements and principles of visual communication inform user interface development</i>
 
 - - -
 
@@ -121,39 +144,39 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 
 * **Usability Principles**
 	<ol>
-		- Hierachy: "This principle can be used to highlight the importance of particular content and features, encouraging users to respond to important elements. When designing a web page, it can be helpful to keep in mind the natural tendency of users to assign greater importance to content at the top left of the screen, and less importance as they move from the top down and from left to right." - (School Resources, 2020)</ol>
+		- Hierachy: "This principle can be used to highlight the importance of particular content and features, encouraging users to respond to important 	elements. When designing a web page, it can be helpful to keep in mind the natural tendency of users to assign greater importance to content at the top left of the screen, and less importance as they move from the top down and from left to right." - (School Resources, 2020)</ol>
 	<ol>
-		- Harmony: "Harmony offers an interpretation of proximity to ensure components as a whole provide valuable meaning and are complementary across the interface. In a data driven context, it is not always harmonious to place certain datasets with others. Sometimes it is better to place datasets on separate screens to avoid confusion or otherwise improve the experience." - (School Resources, 2020)</ol>
+		- Harmony: "Harmony offers an interpretation of proximity to ensure components as a whole provide valuable meaning and are complementary across the 	interface. In a data driven context, it is not always harmonious to place certain datasets with others. Sometimes it is better to place datasets on separate screens to avoid confusion or otherwise improve the experience." - (School Resources, 2020)</ol>
 	<ol>
-		- Contrast: "Contrast is what you see when you compare things that are different. Humans are wired to notice differences, and the clever use of contrast can support powerful interactions. Contrast can be achieved in simple ways by utilising elements such as colour and space, and in conjunction with other principles such as proportion and scale." - (School Resources, 2020)</ol>
+		- Contrast: "Contrast is what you see when you compare things that are different. Humans are wired to notice differences, and the clever use of 	contrast can support powerful interactions. Contrast can be achieved in simple ways by utilising elements such as colour and space, and in conjunction with other principles such as proportion and scale." - (School Resources, 2020)</ol>
 	<ol>
-		- Repetition: "The principle of repetition provides predictability through the reusability of elements, and is commonly used in data-driven solutions. The repeated elements could be page constructs, sections or product layouts. This allows users to learn the user environment and predict where they will be able to source information they require." - (School Resources, 2020)</ol>
+		- Repetition: "The principle of repetition provides predictability through the reusability of elements, and is commonly used in data-driven solutions. 	The repeated elements could be page constructs, sections or product layouts. This allows users to learn the user environment and predict where they will be able to source information they require." - (School Resources, 2020)</ol>
 	<ol>
-		- Alignment: "Alignment is a principle of design that is conducive to how users infer information from a layout. Alignment of images, text and objects provides structure, eliminates potential haphazardness and allows the user to effectively scan information." - (School Resources, 2020)</ol>
+		- Alignment: "Alignment is a principle of design that is conducive to how users infer information from a layout. Alignment of images, text and objects 	provides structure, eliminates potential haphazardness and allows the user to effectively scan information." - (School Resources, 2020)</ol>
 	<ol>
-		- Proximity: "When presented with information, users will mentally group together elements that are close to each other in a space. It is suggested that many users 'clump' these into a summarised object. It is important to keep this in mind when developing a data-rich user experience. When data is placed close to other data, a relationship is often inferred based on a user's understanding of the logical layout of data. Changing the physical proximity of the data changes its potential meaning and how a user interprets it. This is an important consideration in delivering meaningful data to a user." - (School Resources, 2020)</ol>     
+		- Proximity: "When presented with information, users will mentally group together elements that are close to each other in a space. It is suggested 	that many users 'clump' these into a summarised object. It is important to keep this in mind when developing a data-rich user experience. When data is placed close to other data, a relationship is often inferred based on a user's understanding of the logical layout of data. Changing the physical proximity of the data changes its potential meaning and how a user interprets it. This is an important consideration in delivering meaningful data to a user." - (School Resources, 2020)</ol>     
 	<ol>
-		- Balance: "Balance in an interface refers to a sense of equilibrium and symmetry in the eyes of the user, allowing the user to effortlessly interpret the interface. Balance is sometimes informal — meaning it isn't exact, and is more of a general appreciation of perspective. Balance in a web context may mean simply that the breakdown of the page shows symmetry in relation to chunks of detail." - (School Resources, 2020)</ol>
+		- Balance: "Balance in an interface refers to a sense of equilibrium and symmetry in the eyes of the user, allowing the user to effortlessly interpret 	the interface. Balance is sometimes informal — meaning it isn't exact, and is more of a general appreciation of perspective. Balance in a web context may mean simply that the breakdown of the page shows symmetry in relation to chunks of detail." - (School Resources, 2020)</ol>
 
 </li> <br>
 	
 * **Usability Elements**
 	<ol>
-		- Space: "Space can be used to support meaning and to zone groups of data. It can be used consistently to develop predictability throughout a user experience. It should not be considered to be just negative or blank. An interface without the use of structured space could be considered by a user to be too busy, confusing and not learnable." - (School Resources, 2020)</ol>
+		- Space: "Space can be used to support meaning and to zone groups of data. It can be used consistently to develop predictability throughout a user 	experience. It should not be considered to be just negative or blank. An interface without the use of structured space could be considered by a user to be too busy, confusing and not learnable." - (School Resources, 2020)</ol>
 	<ol>
-		- Line: "The use of the line element in interfaces is well defined and is naturally applied in the principles of alignment, proximity and hierarchy. A line can be thought of as a starting place, a marker or trigger to change. A simple horizontal line with textural and tone features within an interface such as a web page can provide separation or encapsulation." - (School Resources, 2020)</ol>
+		- Line: "The use of the line element in interfaces is well defined and is naturally applied in the principles of alignment, proximity and hierarchy. A 	line can be thought of as a starting place, a marker or trigger to change. A simple horizontal line with textural and tone features within an interface such as a web page can provide separation or encapsulation." - (School Resources, 2020)</ol>
 	<ol>
-		- Colour and Tone: "The use of colour plays a significant role in developing data-driven applications and presentation of associated data. Aspects of colour that should be considered include: A: a consistent approach to colour choice throughout the application. This assists in branding and the predictability of the product for users. B: the compatibility of colours for ease of use. Some designers engage the colour wheel to identify compatible colour choices that support contrasting information as well as making the solution more accessible." - (School Resources, 2020)</ol>
+		- Colour and Tone: "The use of colour plays a significant role in developing data-driven applications and presentation of associated data. Aspects of 	colour that should be considered include: A: a consistent approach to colour choice throughout the application. This assists in branding and the predictability of the product for users. B: the compatibility of colours for ease of use. Some designers engage the colour wheel to identify compatible colour choices that support contrasting information as well as making the solution more accessible." - (School Resources, 2020)</ol>
 	<ol>
-		- Texture: "Texture is a truly artistic element of visual design and refers to the tactile or inferred visual features of an object. Texture can be used to assist in visual or physical improvements in accessibility, or in conjunction with other elements such as form and shapes to give emphasis or distinction. 
+		- Texture: "Texture is a truly artistic element of visual design and refers to the tactile or inferred visual features of an object. Texture can be 	used to assist in visual or physical improvements in accessibility, or in conjunction with other elements such as form and shapes to give emphasis or distinction. 
 	" - (School Resources, 2020)</ol>  
-	<ol>- Form: "Utilising the element of form within a user experience can give the feeling of depth and a multi-dimensional perspective. This could assist in highlighting components through the use of shadows on the surfaces or faces of objects. Form is usually applied in conjunction with other elements such as tone, texture and colour." - (School Resources, 2020)</ol>
-	<ol>- Proportion and Scale: "Concepts such as the 'golden ratio' are used to demonstrate proportion in design work such as interfaces. This is a commonly occurring mathematical ratio that has been discovered to create aesthetically pleasing, natural-looking presentations." - (School Resources, 2020)</ol>
+	<ol>- Form: "Utilising the element of form within a user experience can give the feeling of depth and a multi-dimensional perspective. This could assist in 	highlighting components through the use of shadows on the surfaces or faces of objects. Form is usually applied in conjunction with other elements such as tone, texture and colour." - (School Resources, 2020)</ol>
+	<ol>- Proportion and Scale: "Concepts such as the 'golden ratio' are used to demonstrate proportion in design work such as interfaces. This is a commonly 	occurring mathematical ratio that has been discovered to create aesthetically pleasing, natural-looking presentations." - (School Resources, 2020)</ol>
 </li>
+	
+	<br><br>
 
 - - -
-<br><br>
-
 # Australian Privacy Act
 
 * <i>Criteria: 
@@ -190,9 +213,10 @@ There are three main privacy principles that the exam will focus on, these consi
 * <i>Criteria: 
   * Explain
     * Network transmission principles, including latency, jitter, guarantee and timeliness of delivery, and protocols relevant to the transmission of data over the internet, e.g. HTTP, HTTPS, FTP, VPN, streaming and broadcasting data packets
-    * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
 
 </i>
+
+---
 
 <br>
 
@@ -251,10 +275,30 @@ IP has the task of delivering packets from the source host to the destination ho
 
 <br>
 
+<br>
+
+---
+
 # Methods of data exchange
 
-## REST API's
-### What is a REST API
+* <i>Criteria: 
+  * Explain
+    * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
+  * Symbolise and Explain
+    * Secure data transmission techniques and processes, including the use of encryption, decryption, authentication, hashing and checksums
+    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
+  * Describe 
+    * Data using appropriate naming conventions, data formats and structures
+
+</i>
+
+---
+
+<br>
+
+**REST API's**
+
+What is a REST API?
 
 > **R****e**presentational
 > **S**tate
@@ -272,8 +316,10 @@ An **API** is a set of rules that allow programs to talk to each other. The deve
 
 Each URL is called a request while the data sent back to you is called a response.
 
+<br>
 
-### The Anatomy Of A Request
+**The Anatomy Of A Request**
+
 It’s important to know that a request is made up of four things:
 
 * The endpoint
@@ -301,15 +347,22 @@ The final part of an endpoint is **query parameters**. Technically, query parame
 
 `?query1=value1&query2=value2`
 
-## JSON
+<br>
+
+**JSON**
 
 **REST API** responses are usually in JSON (**J**ava**S**cript **O**bject **N**otation)
 
-### JSON Syntax Rules
+<br>
+
+JSON Syntax Rules
+
 * Data is in name/value pairs
 * Data is separated by commas
 * Curly braces hold objects
 * Square brackets hold arrays
+
+<br>
 
 JSON **data** is written as name/value pairs
 A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value:
@@ -362,12 +415,16 @@ Here is another example of JSON:
 	  }
 	}
 
+<br>
 
-## XML
+**XML**
+
 Coming soon...
 
-JSON vs XML
-		
+<br>
+
+**JSON vs XML**
+
 	<person>
 	  <firstName>John</firstName>
 	  <lastName>Smith</lastName>
@@ -392,7 +449,27 @@ JSON vs XML
 	    <type>male</type>
 	  </sex>
 	</person>
-	
+
+<br><br>
+
+---
+
+# Sub-Systems
+
+* <i>Criteria: 
+  * Symbolise and Explain
+    * how application sub-systems, e.g. front end, back end, work together to constitute a solution</i>
+
+- - -
+
+<br>
+
+**Sub-Systems**
+
+In computing terms front-end and back-end refer to the sections that make up a software project. The front-end, or presentation layer, refers to anything the user can see. This generally includes the UI or the buttons and inputs the user interacts with. The back-end, or data access layer, is what runs the front-end of the application. The back-end can take care of any data that needs transferring or it can make the buttons and inputs from the front-end functional. When both combined they make a visual appeasing and functional application for the user to interact with.
+
+<br>
+
 <br>
 
 ### Similarities and Differences
@@ -425,17 +502,162 @@ JSON vs XML
 
 ---
 
-# Next Section
+# Algorithms
 
 * <i>Criteria: 
-  * Recognise and describe encryption and authentication strategies appropriate for securing data transmissions and their differences
-    * features of symmetric (Data Encryption Standard — DES, Triple DES, AES — Advanced Encryption Standard, Blowfish and Twofish) and asymmetric (RSA) encryption algorithms
-    * How data compression, encryption and hashing are used in the storage and transfer of data</i>
+
+  * Symbolise, Analyse and Evaluate
+    * Caesar, Polyalphabetic (e.g. Vigenere and Gronsfield), and one-time pad encryption algorithms
+  * Symbolise and Explain
+    * The basic constructs of an algorithm, including assignment, sequence, selection, condition, iteration and modularisation 
+
+  </i>
 
 - - -
 
+<br>
 
+**Algorithms**
 
+An algorithm is a finite sequence of set tasks something, generally a computer, will follow to achieve a task set by the algorithm creator. Any set of tasks can be considered as an algorithm, it doesn't need to be computer related. A set of directions of a recipe to make a cake can be considered as algorithms because they are a list of tasks that achieve an end-goal.
+
+<br>
+
+**Pseudocode**
+
+Pseudocode is an artificial and universal language, or set of guidelines, created as a way to write prototype code that can be read by anyone and translated into any language. Like how a blueprint of a building can be read and used by everyone in the building process pseudocode is an application blueprint able to be read in any programming language. Here is an example of a simple pseudocode document:
+
+```pseudocode
+BEGIN 
+    SET ranNum = random(1, 10) 
+     
+    REPEAT 
+        OUTPUT "Guess the number between 1 and 10: " 
+        INPUT userNum 
+         
+        IF userNum > ranNum THEN 
+            OUTPUT "Lower" 
+        ELSE  
+            OUTPUT "Higher" 
+        ENDIF 
+    UNTIL userNum = ranNum 
+
+    OUTPUT "Correct" 
+END 
+```
+
+<br>
+
+**Pseudocode Standards**
+
+| Rule                                                         | Example                                                      |
+| :----------------------------------------------------------- | ------------------------------------------------------------ |
+| **Keywords**: Keywords are written in bold capitals.         | **IF, THEN, ELSE, OUTPUT, WRITE**                            |
+| **Indentation**: Statements that form part of a repetition loop are indicated by the same amount too indicate that they form a logical grouping. <i>(Due to formatting issues an indent will be represented by 4 "." in a row, these are not usually written with an indent in pseudocode)</i> | **IF** condition **THEN**<br />....statements<br />**ENDIF** |
+| **Ending a repetition loop**: The end of repetition loops and IF, THEN, and ELSE statements are explicitly indicated. | **IF** condition **THEN**<br />....statements<br />**ELSE**<br>...statemen<br>**ENDIF**<br /><br />**WHILE** condition<br />....statements<br />**ENDWHILE** |
+| **Clarity**: Pseudocode should clearly indicate what is happening at each step, including formulas of calculations. | ```CALCULATE net``` is not as clear as ```CALCULATE net = gross - tax``` |
+| **Abbreviate**: Use a more abbreviated version in which more memory cells used to store the input are given program-like names. | ```INPUT num1``` is preferred over ```INPUT first number```  |
+| **Naming Conventions**: Use camel case naming conventions for variables, sub-routines, methods and functions. | - newString;<br>- getNewString()<br>- myVariableName;        |
+| **Modularisation**: Pseudocode always starts and ends with the BEGIN and END keywords. | Main Algorithm<br>**BEGIN**<br>....statements<br>**END**<br><br>Subroutines<br>**BEGIN** name<br>....statements<br>**END** name |
+| **Variables**: Programmers use names without spaces for variables. | ```INPUT num1``` <br>```SET num1 to 1```                     |
+| **Input, Assign, Output**: To input, assign or output values, common words can be used as keywords. | - **INPUT** mark<br>- **WRITE** "The total is" count<br>- **PRINT** x, y<br>- **DISPLAY** name, result <br>- **READ** name from list.txt<br>- **OUTPUT** average |
+| **Assignment**: Pseudocode should clearly indicate what is happening at each step. | **CALCULATE** net = gross - tax                              |
+| **Iteration**: Control structures to provide repetition.     | **REPEAT**<br>....statements<br>**UNTIL** condition<br><br>**WHILE** condition<br>....statements<br>**ENDWHILE**<br><br>**FOR** count = startVal **TO** endVal<br>....statements<br>**NEXT** count |
+
+<i>Content Source: Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode</i>
+
+<br>
+
+---
+
+# Dataflow
+
+* <i>Criteria: 
+
+  * Symbolise
+    * Data flow through a system using data flow diagrams
+
+  </i>
+
+- - -
+
+<br>
+
+**Dataflow Diagrams**
+
+A dataflow diagram is a way to plan and understand the flow of data through a process or system. Using predefined shapes, like rectangles and arrows, inputs, outputs and data routes can all be represented in a neat and accessible way. DFD's can be hand drawn simple level systems up to complex multilevel diagram.
+
+<br>
+
+**Dataflow Diagram Example**
+
+![data flow diagram](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/data-flow-diagram/discovery/data-flow-diagram-7.svg)
+
+<br>
+
+**Symbols and Representations**
+
+Using any convention’s DFD rules or guidelines, the symbols depict the four components of data flow diagrams.
+
+1. **External entity:** an outside system that sends or receives data, communicating with the  system being diagrammed. They are the sources and destinations of  information entering or leaving the system. They might be an outside  organization or person, a computer system or a business system. They are also known as terminators, sources and sinks or actors. They are  typically drawn on the edges of the diagram. 
+2. **Process:** any process that changes the data, producing an output. It might perform  computations, or sort data based on logic, or direct the data flow based on business rules. A short label is used to describe the process, such  as “Submit payment.”
+3. **Data store:** files or  repositories that hold information for later use, such as a database  table or a membership form. Each data store receives a simple label,  such as “Orders.”
+4. **Data flow:** the route that  data takes between the external entities, processes and data stores. It  portrays the interface between the other components and is shown with  arrows, typically labeled with a short data name, like “Billing  details.” 
+
+<i>Content source: "What is a Data Flow Diagram", 2020</i>
+
+<br>
+
+**Rules of a Dataflow Diagram**
+
+![img](https://i.imgur.com/77i1cCr.png)
+
+![img](https://i.imgur.com/wBARPju.png)
+
+<br>
+
+<br>
+
+# Topic 2: Complex digital data exchange problems and solution requirements
+
+# Data Delivery
+
+* <i>Criteria: 
+
+  * Analyse Problems and Information to Determine
+    * Factors and risks that affect data security, including confidentiality, integrity and availability, and privacy
+  * Analyse, Evaluate and make Refinements to
+    * Data to ensure completeness, consistency and integrity</i>
+
+- - -
+
+<br>
+
+**CIA Triad**
+
+The websites we use everyday should be secure and allow data to be sent from computer to server without having to worry about an attack or a breach of ones data, one of the main ways a website implements security is with the CIA triad.
+
+> **C**onfidentiality
+> **I**ntegrity
+> **A**vailability
+
+<br>
+
+**Confidentiality**
+
+Confidentiality refers to how a business or organisation keeps its data private and unreachable by any outside organisations. This is generally done by only allowing those who need the file access while preventing unauthorised members access. Confidentiality can be violated for gain in many ways such as a direct attack designed to give the attacker unauthorised access to certain files or data stores. Confidentiality can also be violated unintentionally and by accident by everyday employees using weak passwords or sharing accounts.
+
+<br>
+
+**Integrity**
+
+Integrity refers to ensuring any data, whether in transit or not, is not modified or tampered with in any way, with or without malicious intent. Integrity of data can be checked using methods such as hashing, digital signatures, digital certificates and many various intrusion detection systems.
+
+<br>
+
+**Availability**
+
+Availability refers to the guarantee that the network, site or application will be up and running whenever a user will need to use it. There are many things that could cause this guarantee no fail, simple things that can affect this are power outages, software/system fails or natural disasters. However, this guarantee can be violated on purpose by attackers using various methods to shut down and overload the system of said attack. 
 
 <br>
 
@@ -451,51 +673,34 @@ JSON vs XML
 - Encryption 101. EDUCAUSE. (2020). Retrieved 3 September 2020, from [https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101).
 
 * Stubbs, R. (2020). An Overview of Symmetric Encryption and the Key Lifecycle. Cryptomathic.com. Retrieved 3 September 2020, from [https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle](https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle).
-
 * Advanced Encryption Standard. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
-
 * S-box. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/S-box](https://en.wikipedia.org/wiki/S-box).
-
 * Blowfish (cipher). En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Blowfish_(cipher)](https://en.wikipedia.org/wiki/Blowfish_(cipher)).
-
 * Katz, A., Ng, A., Bourg, P., William, C., Ross, E., Khim, J., & Kau, A. (2020). RSA Encryption | Brilliant Math & Science Wiki. Brilliant.org. Retrieved 3 September 2020, from [https://brilliant.org/wiki/rsa-encryption/](Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/).
-
 * PMTEducation. (2020). OCR Computer Science A Level [Ebook] (1st ed., pp. 3-6). Retrieved 4 September 2020, from [https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf).
-
 * Nielsen, J. (2020). Usability 101: Introduction to Usability. Nielsen Norman Group. Retrieved 4 September 2020, from [https://www.nngroup.com/articles/usability-101-introduction-to-usability/](https://www.nngroup.com/articles/usability-101-introduction-to-usability/).
-
 * 2020 Guide to Network Latency (2020). Retrieved 3 September 2020, from   [https://www.dnsstuff.com/network-latency](https://www.dnsstuff.com/network-latency)
-
 * Communication Protocol (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Communication_protocol](https://en.wikipedia.org/wiki/Communication_protocol).
-
 * *HTTPS*. En.wikipedia.org. (2020). Retrieved 6 September 2020, from https://en.wikipedia.org/wiki/HTTPS.
-
 * HTTP.  En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
-
 * FTP. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/FTP](https://en.wikipedia.org/wiki/FTP)
-
 * Jitter. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Jitter](https://en.wikipedia.org/wiki/Jitter)
-
 * VPN. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/VPN](https://en.wikipedia.org/wiki/VPN)
-
 * *Chapter 6: APP 6 — Use or disclosure of personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-6-app-6-use-or-disclosure-of-personal-information/.
-
 * *Read the Australian Privacy Principles*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles/read-the-australian-privacy-principles/.
-
 * *Guide to securing personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/#ftn4.
-
 * *Chapter 1: What is a Network?*. Fcit.usf.edu. (2020). Retrieved 7 September 2020, from https://fcit.usf.edu/network/chap1/chap1.htm.
-
 * Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography* (1st ed.). Fourth Estate and Doubleday.
-
 * Rodriguez-Clark, D. (2020). *Frequency Analysis: Breaking the Code*. Crypto Corner. Retrieved 7 September 2020, from  https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html.
-
 * Rodriguez-Clark, D. (2020). *Polyalphabetic Substitution Ciphers*. Crypto Corner. Retrieved 7 September 2020, from https://crypto.interactive-maths.com/polyalphabetic-substitution-ciphers.html.
-
 * *Vigenère cipher*. En.wikipedia.org. (2020). Retrieved 7 September 2020, from https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher.
-
 * *Gronsfeld Cipher*. Rumkin.com. (2020). Retrieved 7 September 2020, from http://rumkin.com/tools/cipher/gronsfeld.php.
-
 * *Understanding Using REST API.* Smashing Magazine (2018) Retrieved 7 September 2020, from [https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 * *What is JSON?* w3schools.com Retrieved 7 September 2020, from [https://www.w3schools.com/whatis/whatis_json.asp](https://www.w3schools.com/whatis/whatis_json.asp)
-  
+* Brogan, J. (2020). *Defining Algorithms—a Conversational Explainer*. Slate Magazine. Retrieved 5 October 2020, from https://slate.com/technology/2016/02/whats-the-deal-with-algorithms.html.
+* Macharia, N. (2020). *How to write Pseudocode: A beginner’s guide*. Medium. Retrieved 5 October 2020, from https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698.
+*  Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode. Retrieved 7 October 2020, from content library 
+*  *Data access layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Data_access_layer.
+*  *Presentation layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Presentation_layer.
+*  *What is a Data Flow Diagram*. Lucidchart.com. (2020). Retrieved 8 October 2020, from https://www.lucidchart.com/pages/data-flow-diagram.
+*  Walkowski, D. (2020). *What Is The CIA Triad?*. F5 Labs. Retrieved 13 October 2020, from https://www.f5.com/labs/articles/education/what-is-the-cia-triad.
