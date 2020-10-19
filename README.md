@@ -188,6 +188,7 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 
 <br>
 
+[Nice PDF that summarises all APP's](https://www.oaic.gov.au/assets/privacy/guidance-and-advice/app-quick-reference-tool.pdf)
 There are three main privacy principles that the exam will focus on, these consist of APP 1, 6 and 11
 
 <li>
