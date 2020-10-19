@@ -4,11 +4,10 @@
 
 
 # Contents
-[Encryption](#Encryption)
 
 <h3>Topic 1</h3>
 
-- [Encryption](#Encryption)
+- Encryption
 - Visual Communication
 - Australian Privacy Act
 - Networking
