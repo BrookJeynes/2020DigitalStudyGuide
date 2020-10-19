@@ -5,7 +5,7 @@
 
 # Contents
 
-<h3>Topic 1</h3>
+### Topic 1
 
 - [Encryption](#encryption)
 - [Visual Communication](#visual-communication)
@@ -16,7 +16,7 @@
 - [Algorithms](#algorithms)
 - [Dataflow](#dataflow)
 
-<h3>Topic 2</h3>
+### Topic 2
 
 - Data Delivery
 
@@ -28,7 +28,7 @@
 
 # Encryption
 
-* <i>Criteria: 
+* *Criteria*: 
 
   * Recognise and Describe 
      * Encryption and authentication strategies appropriate for securing data transmissions and their differences
@@ -117,8 +117,8 @@ Polyalphabetic
 
 **Polyalphabetic Ciphers**	
 
-<ol>- Vigenere: "The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword." - ("Vigenère cipher", 2020)</ol>
-<ol>- Gronsfield: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)</ol>
+*  **Vigenere**: "The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword." - ("Vigenère cipher", 2020)
+* **Gronsfield**: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)
 
 </li> <br>
 
@@ -130,11 +130,12 @@ Polyalphabetic
 
 ## Visual Communication
 
-* <i>Criteria: 
+<i>
+* Criteria: 
   * Recognise and Describe
     * How usability principles are used to inform solution development
-    * How the elements and principles of visual communication inform user interface development</i>
-
+    * How the elements and principles of visual communication inform user interface development
+</i>
 - - -
 
 <br>
@@ -419,11 +420,59 @@ Here is another example of JSON:
 
 **XML**
 
-Coming soon...
+```XML
+<employee>
+  <age>25</age>
+  <address>
+    <city>New York</city>
+    <state>NY</state>
+    <street_address>21 2nd Street</street_address>
+    <postal_code>10021</postal_code>
+  </address>
+  <sex>
+    <type>male</type>
+  </sex>
+  <first_name>John</first_name>
+  <last_name>Smith</last_name>
+  <phone_numbers>
+    <type>home</type>
+    <number>212 555-1234</number>
+  </phone_numbers>
+  <phone_numbers>
+    <type>fax</type>
+    <number>646 555-4567</number>
+  </phone_numbers>
+</employee>
+```
 
 <br>
 
-**JSON vs XML**
+### Similarities and Differences
+
+#### Similarities:
+* Both JSON and XML can be used to receive data from a web server.
+* Both JSON and XML are "self describing" (human readable)
+* Both JSON and XML are hierarchical (values within values)
+* Both JSON and XML can be parsed and used by lots of programming languages
+
+#### Differences:
+* JSON doesn't use end tags
+* JSON is shorter
+* JSON is quicker to read and write
+* JSON can use arrays
+
+### Why JSON is Better:
+#### Using XML
+
+* Fetch an XML document
+* Use the XML DOM to loop through the document
+* Extract values and store in variables
+
+#### Using JSON
+
+* Fetch a JSON string
+* Parse the JSON string
+
 
 	<person>
 	  <firstName>John</firstName>
@@ -472,31 +521,6 @@ In computing terms front-end and back-end refer to the sections that make up a s
 
 <br>
 
-### Similarities and Differences
-
-#### Similarities:
-* Both JSON and XML can be used to receive data from a web server.
-* Both JSON and XML are "self describing" (human readable)
-* Both JSON and XML are hierarchical (values within values)
-* Both JSON and XML can be parsed and used by lots of programming languages
-
-#### Differences:
-* JSON doesn't use end tags
-* JSON is shorter
-* JSON is quicker to read and write
-* JSON can use arrays
-
-### Why JSON is Better:
-#### Using XML
-
-* Fetch an XML document
-* Use the XML DOM to loop through the document
-* Extract values and store in variables
-
-#### Using JSON
-
-* Fetch a JSON string
-* Parse the JSON string
 
 # Methods of data exchange
 
