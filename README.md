@@ -7,14 +7,14 @@
 
 <h3>Topic 1</h3>
 
-- Encryption
-- Visual Communication
-- Australian Privacy Act
-- Networking
-- Methods of data exchange
-- Sub-Systems
-- Algorithms
-- Dataflow
+- [Encryption](#encryption)
+- [Visual Communication](#visual-communication)
+- [Australian Privacy Act](#australian-privacy-act)
+- [Networking](#networking)
+- [Methods of data exchange](#methods-of-data-exchange)
+- [Sub-Systems](#sub-systems)
+- [Algorithms](#algorithms)
+- [Dataflow](#dataflow)
 
 <h3>Topic 2</h3>
 
