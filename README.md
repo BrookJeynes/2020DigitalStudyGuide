@@ -2,28 +2,21 @@
 
 *Written by Brook Jeynes and Brady Stroud*
 
-#### Please refer to these sites before contributing:
-
-* [https://docs.github.com/en/free-pro-team@latest/github/writing-on-github](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github)
-* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github)
-* [https://www.markdownguide.org/extended-syntax/#fn:1](https://www.markdownguide.org/extended-syntax/#fn:1)
-
-<br>
 
 # Contents
 
-<h3>Topic 1</h3>
+### Topic 1
 
-- Encryption
-- Visual Communication
-- Australian Privacy Act
-- Networking
-- Methods of data exchange
-- Sub-Systems
-- Algorithms
-- Dataflow
+- [Encryption](#encryption)
+- [Visual Communication](#visual-communication)
+- [Australian Privacy Act](#australian-privacy-act)
+- [Networking](#networking)
+- [Methods of data exchange](#methods-of-data-exchange)
+- [Sub-Systems](#sub-systems)
+- [Algorithms](#algorithms)
+- [Dataflow](#dataflow)
 
-<h3>Topic 2</h3>
+### Topic 2
 
 - Data Delivery
 
@@ -35,7 +28,7 @@
 
 # Encryption
 
-* <i>Criteria: 
+* *Criteria*: 
 
   * Recognise and Describe 
      * Encryption and authentication strategies appropriate for securing data transmissions and their differences
@@ -124,8 +117,8 @@ Polyalphabetic
 
 **Polyalphabetic Ciphers**	
 
-<ol>- Vigenere: "The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword." - ("Vigenère cipher", 2020)</ol>
-<ol>- Gronsfield: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)</ol>
+*  **Vigenere**: "The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword." - ("Vigenère cipher", 2020)
+* **Gronsfield**: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)
 
 </li> <br>
 
@@ -137,11 +130,12 @@ Polyalphabetic
 
 ## Visual Communication
 
-* <i>Criteria: 
+<i>
+* Criteria: 
   * Recognise and Describe
     * How usability principles are used to inform solution development
-    * How the elements and principles of visual communication inform user interface development</i>
-
+    * How the elements and principles of visual communication inform user interface development
+</i>
 - - -
 
 <br>
@@ -196,7 +190,6 @@ There are seven main usability principles that will be focused on, hierarchy, ha
 
 [Nice PDF that summarises all APP's](https://www.oaic.gov.au/assets/privacy/guidance-and-advice/app-quick-reference-tool.pdf)
 There are three main privacy principles that the exam will focus on, these consist of APP 1, 6 and 11
-
 
 <li>
 	<ol>
@@ -428,11 +421,59 @@ Here is another example of JSON:
 
 **XML**
 
-Coming soon...
+```XML
+<employee>
+  <age>25</age>
+  <address>
+    <city>New York</city>
+    <state>NY</state>
+    <street_address>21 2nd Street</street_address>
+    <postal_code>10021</postal_code>
+  </address>
+  <sex>
+    <type>male</type>
+  </sex>
+  <first_name>John</first_name>
+  <last_name>Smith</last_name>
+  <phone_numbers>
+    <type>home</type>
+    <number>212 555-1234</number>
+  </phone_numbers>
+  <phone_numbers>
+    <type>fax</type>
+    <number>646 555-4567</number>
+  </phone_numbers>
+</employee>
+```
 
 <br>
 
-**JSON vs XML**
+### Similarities and Differences
+
+#### Similarities:
+* Both JSON and XML can be used to receive data from a web server.
+* Both JSON and XML are "self describing" (human readable)
+* Both JSON and XML are hierarchical (values within values)
+* Both JSON and XML can be parsed and used by lots of programming languages
+
+#### Differences:
+* JSON doesn't use end tags
+* JSON is shorter
+* JSON is quicker to read and write
+* JSON can use arrays
+
+### Why JSON is Better:
+#### Using XML
+
+* Fetch an XML document
+* Use the XML DOM to loop through the document
+* Extract values and store in variables
+
+#### Using JSON
+
+* Fetch a JSON string
+* Parse the JSON string
+
 
 	<person>
 	  <firstName>John</firstName>
@@ -481,31 +522,6 @@ In computing terms front-end and back-end refer to the sections that make up a s
 
 <br>
 
-### Similarities and Differences
-
-#### Similarities:
-* Both JSON and XML can be used to receive data from a web server.
-* Both JSON and XML are "self describing" (human readable)
-* Both JSON and XML are hierarchical (values within values)
-* Both JSON and XML can be parsed and used by lots of programming languages
-
-#### Differences:
-* JSON doesn't use end tags
-* JSON is shorter
-* JSON is quicker to read and write
-* JSON can use arrays
-
-### Why JSON is Better:
-#### Using XML
-
-* Fetch an XML document
-* Use the XML DOM to loop through the document
-* Extract values and store in variables
-
-#### Using JSON
-
-* Fetch a JSON string
-* Parse the JSON string
 
 # Methods of data exchange
 
@@ -671,45 +687,3 @@ Availability refers to the guarantee that the network, site or application will 
 <br>
 
 <br>
-
----
-
-
-# References
-
-* What is Encryption? | Types of Encryption. Cloudflare. (2020). Retrieved 3 September 2020, from [https://www.cloudflare.com/learning/ssl/what-is-encryption/](https://www.cloudflare.com/learning/ssl/what-is-encryption/).
-
-- Encryption 101. EDUCAUSE. (2020). Retrieved 3 September 2020, from [https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/encryption-101).
-
-* Stubbs, R. (2020). An Overview of Symmetric Encryption and the Key Lifecycle. Cryptomathic.com. Retrieved 3 September 2020, from [https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle](https://www.cryptomathic.com/news-events/blog/an-overview-of-symmetric-encryption-and-the-key-lifecycle).
-* Advanced Encryption Standard. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
-* S-box. En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/S-box](https://en.wikipedia.org/wiki/S-box).
-* Blowfish (cipher). En.wikipedia.org. (2020). Retrieved 3 September 2020, from [https://en.wikipedia.org/wiki/Blowfish_(cipher)](https://en.wikipedia.org/wiki/Blowfish_(cipher)).
-* Katz, A., Ng, A., Bourg, P., William, C., Ross, E., Khim, J., & Kau, A. (2020). RSA Encryption | Brilliant Math & Science Wiki. Brilliant.org. Retrieved 3 September 2020, from [https://brilliant.org/wiki/rsa-encryption/](Brilliant.org. Retrieved 3 September 2020, from https://brilliant.org/wiki/rsa-encryption/).
-* PMTEducation. (2020). OCR Computer Science A Level [Ebook] (1st ed., pp. 3-6). Retrieved 4 September 2020, from [https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/OCR/1.3-Exchanging-Data/Advanced/1.3.1.%20Compression,%20Encryption%20and%20Hashing.pdf).
-* Nielsen, J. (2020). Usability 101: Introduction to Usability. Nielsen Norman Group. Retrieved 4 September 2020, from [https://www.nngroup.com/articles/usability-101-introduction-to-usability/](https://www.nngroup.com/articles/usability-101-introduction-to-usability/).
-* 2020 Guide to Network Latency (2020). Retrieved 3 September 2020, from   [https://www.dnsstuff.com/network-latency](https://www.dnsstuff.com/network-latency)
-* Communication Protocol (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Communication_protocol](https://en.wikipedia.org/wiki/Communication_protocol).
-* *HTTPS*. En.wikipedia.org. (2020). Retrieved 6 September 2020, from https://en.wikipedia.org/wiki/HTTPS.
-* HTTP.  En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/HTTP](https://en.wikipedia.org/wiki/HTTP)
-* FTP. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/FTP](https://en.wikipedia.org/wiki/FTP)
-* Jitter. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/Jitter](https://en.wikipedia.org/wiki/Jitter)
-* VPN. En.wikipedia.org. (2020). Retrieved 6 September 2020, from [https://en.wikipedia.org/wiki/VPN](https://en.wikipedia.org/wiki/VPN)
-* *Chapter 6: APP 6 — Use or disclosure of personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/chapter-6-app-6-use-or-disclosure-of-personal-information/.
-* *Read the Australian Privacy Principles*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/australian-privacy-principles/read-the-australian-privacy-principles/.
-* *Guide to securing personal information*. OAIC. (2020). Retrieved 7 September 2020, from  https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/#ftn4.
-* *Chapter 1: What is a Network?*. Fcit.usf.edu. (2020). Retrieved 7 September 2020, from https://fcit.usf.edu/network/chap1/chap1.htm.
-* Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography* (1st ed.). Fourth Estate and Doubleday.
-* Rodriguez-Clark, D. (2020). *Frequency Analysis: Breaking the Code*. Crypto Corner. Retrieved 7 September 2020, from  https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html.
-* Rodriguez-Clark, D. (2020). *Polyalphabetic Substitution Ciphers*. Crypto Corner. Retrieved 7 September 2020, from https://crypto.interactive-maths.com/polyalphabetic-substitution-ciphers.html.
-* *Vigenère cipher*. En.wikipedia.org. (2020). Retrieved 7 September 2020, from https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher.
-* *Gronsfeld Cipher*. Rumkin.com. (2020). Retrieved 7 September 2020, from http://rumkin.com/tools/cipher/gronsfeld.php.
-* *Understanding Using REST API.* Smashing Magazine (2018) Retrieved 7 September 2020, from [https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
-* *What is JSON?* w3schools.com Retrieved 7 September 2020, from [https://www.w3schools.com/whatis/whatis_json.asp](https://www.w3schools.com/whatis/whatis_json.asp)
-* Brogan, J. (2020). *Defining Algorithms—a Conversational Explainer*. Slate Magazine. Retrieved 5 October 2020, from https://slate.com/technology/2016/02/whats-the-deal-with-algorithms.html.
-* Macharia, N. (2020). *How to write Pseudocode: A beginner’s guide*. Medium. Retrieved 5 October 2020, from https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698.
-*  Digital Solutions 2019 v1.2 Supporting Resource: Representing algorithms with pseudocode. Retrieved 7 October 2020, from content library 
-*  *Data access layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Data_access_layer.
-*  *Presentation layer*. En.wikipedia.org. (2020). Retrieved 8 October 2020, from https://en.wikipedia.org/wiki/Presentation_layer.
-*  *What is a Data Flow Diagram*. Lucidchart.com. (2020). Retrieved 8 October 2020, from https://www.lucidchart.com/pages/data-flow-diagram.
-*  Walkowski, D. (2020). *What Is The CIA Triad?*. F5 Labs. Retrieved 13 October 2020, from https://www.f5.com/labs/articles/education/what-is-the-cia-triad.
