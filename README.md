@@ -42,48 +42,62 @@
 
 **Encryption**
 
-Encryption is the process of scrambling data so that only the desired party can understand that information. In more technical terms it is the process of converting plain text to cipher text.
+Encryption is the process of scrambling data so that only the desired party can understand that information. In more technical terms it is the process of converting plain text to cipher text, with only the desired party having the means to convert it back; the key.
 
 
   ```
-  "Hello"  --->  [encryption]  --->  "SNifgNi+uk0="
+  "Hello"  --->  [encryption]  --->  "SNifgNi+uk0=" (base64-encoded encrypted bytes)
   plaintext                          ciphertext
   ```
 
+Wait, base64? In modern day encryption, we don't just encrypt text - we can encrypt images, files or even entire executable files. This, of course, doesn't just miraculously turn into text; we need an algorithm for that. Base64 attempts to turn seemingly random encrypted binary data (bytes) into readable text, and is distinctive because of its [particular alphanumeric/symbolic encoding](https://base64.guru/learn/base64-characters). Base64 is useful when you need to encode binary data as text, and as such is used heavily on the web.
 
 
 **Compression**
 
-Compression is the process used to reduce the storage space a file or program uses, this allowing more files to fit into the same amount of space. This process is especially useful when transferring files over the internet due to larger files taking a longer time to transfer.
+Compression is the process used to reduce the storage space a file or program uses, this allowing more files to fit into the same amount of space. This process is especially useful when transferring files over the internet due to larger files taking a larger amount of time to transfer. Compression is pretty simple when put into practice.
+
+By removing all duplicates (redundancies) and replacing them with 'pointers' to where the data can be found, you reduce the amount of space needed. Pointers (for reference) are usually numbers that tell the computer where to find something in memory, or in a file (offset). For example, a pointer to get from position 512 onward in a text file looks like this: 512 (makes sense, right?).
+
+When decompressing, the computer simply looks up all pointers and pieces back together the data that was the uncompressed file.
 
 **Hashing**
-Hashing is the process in which an input is turned into a fixed sized value. Hashing, unlike encryption, has an output that cannot be reversed to form the key. This means that if a hacker gained access to the hashed database they could only gain access to the keys, which cant be reversed to gain the passwords. However, someone with the password can hash theirs and check it against the stored hash to gain access.
+Hashing is the process in which an input is turned into a fixed sized value. Hashing, unlike encryption, has an output that cannot be reversed to form the plaintext, as there is no key involved. This means that if a malicious actor gained access to the hashed database they could only gain access to the 'hash', which cannot be reversed to gain the sensitive data it represents; like passwords or PINs. However, someone with the plaintext already at their disposal can hash it and check it against the stored hash to gain access; of course, both hashes must be identical for the check to succeed. This means that an attacker must 'brute-force' (go through every single combination) the hash in order to create a matching plaintext; which is inefficient, requires massive amounts of computing power and is ncredibly time-consuming.
+
+Examples of hashes:
+| Algorithm | Plaintext  | Hash                                                                                                                             |
+|-----------|------------|----------------------------------------------------------------------------------------------------------------------------------|
+| MD5       | hello      | 5d41402abc4b2a76b9719d911017c592                                                                                                 |
+| SHA-1     | goodbye    | 3c8ec4874488f6090a157b014ce3397ca8e06d4f                                                                                         |
+| SHA256    | greetings  | 7dd4f2f077e449b47215359e8020c0b6c81e184d2c614486246cb8f70cac7a70                                                                 |
+| SHA512    | P@ssW0rd.1 | cbe1cbbf03d4fbeb1941ba8cf77bc41b1844aafa30eba064c9147977939a1851728276886cde0d9520fe1fbb0bb13bba43ba3e27a81e9d08cc27ba1b54fc854d |
+
+Generally speaking, the longer the hash ('digest' size), the more secure it is. SHA512 is one of the most efficient and secure algorithms, standardising it as the 'go-to' algorithm for many. MD5, however, has long since been deprecated and is not recommended for use.
 
 - - -
 
-In modern time there are two main types of Cryptography algorithms used to protect our data over transfer, symmetric and asymmetric key encryption. <br>
+In modern times, there are two main types of cryptographic algorithms used to protect raw data during transfers: symmetric and asymmetric encryption. <br>
 
 **Symmetric Key Encryption**
 
-Symmetric key encryption, also known as a symmetric algorithm, is a type of encryption that uses one key to encrypt and decrypt data, a secret key, a public key and a private key. <i>"Keys are random bits that are used by the algorithm to transform the material into its encoded format and back to plain text." - ("Encryption 101", 2020)</i>. Some advantages to using symmetric key encryption include its encryption speed and efficiency for large projects with disadvantages consisting of its need to keep the secret key, this can become tricky when dealing with multiple locations. <br>
+Symmetric key encryption, also known as a symmetric algorithm, is a type of encryption that uses one key to encrypt and decrypt data, a secret key, a public key and a private key. *"Keys are random bits that are used by the algorithm to transform the material into its encoded format and back to plain text." - ("Encryption 101", 2020)*. Some advantages to using symmetric key encryption include its encryption speed and efficiency for large projects with disadvantages consisting of its need to keep the secret key, this can become tricky when dealing with multiple locations. <br>
 
 * **Symmetric Key Ciphers**	
-	
-	<ol>- DES: A 64 bit block cipher that uses a 56-bit key.</ol>
-	<ol>- Triple DES (3DES): Uses three separate 56 bit encryption keys. The message is encrypted using one key, encrypted again using a second key and further 	encrypted by using either a first or third key.</ol>
-	<ol>- AES: A variant of [the] Rijndael [block cipher], with a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits. - ("Advanced Encryption 	Standard", 2020)</ol>
-	<ol>- Twofish: A symmetric block cipher which operates on 128 bit blocks and employs 16 rounds with key lengths up to 256 bits.</ol>
-	<ol>- Blowfish: A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant 	S-boxes [S-box: "<i>a basic component of symmetric key algorithms which performs substitution"</i> - ("S-box", 2020)].</ol>
-	</li> <br>
+| Cipher            | Description                                                                                                                                                                                                                                                   | Reference                            |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| DES               | A 64-bit block cipher that uses a 56-bit key. The block size is always constant, and data is 'padded' with 'dummy data' to ensure it meets the correct block size.                                                                                            | (BRH Media, 2020)                    |
+| Triple DES (3DES) | Uses a 168-bit key (3x the size of DES). The message is encrypted via 48 transform rounds, with the key being transformed at the end of each round to form a 'round key'. Round keys encrypt the next round.                                                  | (BRH Media, 2020)                    |
+| AES               | A variant of [the] Rijndael [block cipher], with a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.                                                                                                                                     | (Advanced Encryption Standard, 2020) |
+| Twofish           | A symmetric block cipher which operates on 128 bit blocks and employs 16 rounds with key lengths up to 256 bits.                                                                                                                                              | -                                    |
+| Blowfish          | A symmetric block cipher which operates on 64 bit blocks and employs 16 rounds with key lengths up to 448 bits and uses large key-dependant S-boxes [S-box: *'a basic component of symmetric key algorithms which performs substitution'* - ('S-box', 2020)]. | -                                    |
 
 **Asymmetric Key Encryption**
 
 Asymmetric key encryption, also known as an asymmetric algorithm, is a type of encryption that uses two separate keys, with one being used to encrypt and the other to decrypt data. The key pair being referenced as a public key and private key. The public key is used to send the message and the private key being the one to decrypt said message. Some advantages to using asymmetric key encryption include its encryption extended functionality and its scalability for larger projects with its main disadvantage being the speed of the algorithm. <br>
 
-* **Asymmetric Key Ciphers**
-	<ol>- RSA: <i>"In RSA, the public key is generated by multiplying two large prime numbers p and q together, and the private key is generated through a different process involving p and q. A user can then distribute his public key pq, and anyone wishing to send the user a message would encrypt their message using the public key... When the user receives the encrypted message, they decrypt it using the private key and can read the original text."</i> - (Katz et al., 2020)</ol>
-</li> <br>
-	
+* **Asymmetric Key Ciphers**<br>
+*"In RSA, the public key is generated by multiplying two large prime numbers p and q together, and the private key is generated through a different process involving p and q. A user can then distribute his public key pq, and anyone wishing to send the user a message would encrypt their message using the public key... When the user receives the encrypted message, they decrypt it using the private key and can read the original text."* - (Katz et al., 2020)
+
 ---
 
 **Caesar Cipher**
@@ -251,39 +265,22 @@ The deviation from true periodicity of a presumably periodic signal, often in re
 A protocol is is a system of rules that allows two or more entities of a communications system to transmit information via any kind of variation of a physical quantity. The protocol defines the rules, syntax, semantics and synchronisation of communication and possible error recovery methods. Protocols may be implemented by hardware, software, or a combination of both.
 
 
+**List of common protocols**
 
-
-<li>
-
-**List of common protocols**</li>
-
-<ol>- HTTP: HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. Useful link: [https://howhttps.works/why-do-we-need-https/?fbclid=IwAR1PDiZsEIvG6Kc-xsSOnSpcTNT3fEpMHIqmFgyc_4EtZtCWySIMsAb2npk
-](https://howhttps.works/why-do-we-need-https/?fbclid=IwAR1PDiZsEIvG6Kc-xsSOnSpcTNT3fEpMHIqmFgyc_4EtZtCWySIMsAb2npk)
-</ol>
-
-<ol>- HTTPS: HyperText Transfer Protocol Secure is an extension of HTTP used for secure communication over networks. HTTPS is encrypted using TLS (Transport Layer Security). You can tell when your browser is communicating over HTTPS by the green lock icon in the address bar of most browsers. Most browsers also display a warning to the user when visiting a site that contains a mixture of encrypted and unencrypted content.</ol>
-
-<ol>- TCP: Transmission Control Protocol is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.</ol>
-
-<ol>- IP: Internet Protocol  is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet.
-
-IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.</ol>
-
-<ol>- FTP: File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. </ol>
-
-<ol>- VPN: A Virtual Private Network extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, although not an inherent, part of a VPN connection.</ol>
-
-</li>
-
-<br>
-
-<br>
+| Protocol | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Resources                                                                              |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| HTTP     | HyperText Transfer Protocol is used for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | [HTTP and HTML Explained](https://youtube.com/watch?v=1K64fWX5z4U)                     |
+| HTTPS    | HyperText Transfer Protocol Secure is an extension of HTTP used for secure communication over networks. HTTPS is encrypted using TLS (Transport Layer Security). You can tell when your browser is communicating over HTTPS by the green lock icon in the address bar of most browsers. Most browsers also display a warning to the user when visiting a site that contains a mixture of encrypted and unencrypted content.                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [Why do we need HTTPS?](https://howhttps.works/why-do-we-need-https)                   |
+| TCP      | Transmission Control Protocol is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | [What is TCP/IP?](https://www.youtube.com/watch?v=PpsEaqJV_A0)                         |
+| IP       | Internet Protocol is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet. It encompasses an entire family of protocols and systems that include (but aren't limited to):<ul><li>TR-069/181</li><li>DNS</li><li>DHCP</li></ul><br><br>IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers. For this purpose, IP defines packet structures that encapsulate the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.                                                                                                                                | *See others*                                                                           |
+| FTP      | File Transfer Protocol is used for the transfer of computer files between a client and server on a computer network. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS).  Setting up an FTP control connection is quite slow due to the round-trip delays of sending all of the required commands and awaiting responses, so it is customary to bring up a control connection and hold it open for multiple file transfers rather than drop and re-establish the session afresh each time. In contrast, HTTP originally dropped the connection after each transfer because doing so was so cheap. | (How FTP Works)[https://www.youtube.com/watch?v=RTmAQoYfgk8]                           |
+| VPN      | A Virtual Private Network extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, although not an inherent, part of a VPN connection.                                                                                                                                                                                                                                                                                                                                                                                                                                 | [How do VPNs work?](https://us.norton.com/internetsecurity-privacy-what-is-a-vpn.html) |
 
 ---
 
 # Methods of data exchange
 
-* <i>Criteria: 
+* _Criteria: 
   * Explain
     * Methods for data exchange used to transfer data across networked systems including REST, JSON and XML
   * Symbolise and Explain
@@ -292,7 +289,7 @@ IP has the task of delivering packets from the source host to the destination ho
   * Describe 
     * Data using appropriate naming conventions, data formats and structures
 
-</i>
+_
 
 ---
 
