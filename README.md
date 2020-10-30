@@ -135,7 +135,7 @@ Polyalphabetic ciphers incorporates multiple ciphers in one so a single plain te
 	|-----------|----------|------------|
 	| "Hello"   | "secret" | "Zincs"    |
 	
-- **Gronsfield**: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020)
+- **Gronsfield**: "The Gronsfeld cipher is essentially a Vigenere cipher, but uses numbers instead of letters. So, a Gronsfield key of 0123 is the same as a Vigenere key of ABCD." - ("Gronsfeld Cipher", 2020). Example:<br>
 	| PlainText | Key      | CipherText |
 	|-----------|----------|------------|
 	| "Hello"   | "0123"   | "HFNOO"    |
