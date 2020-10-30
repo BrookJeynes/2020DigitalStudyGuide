@@ -140,10 +140,6 @@ Polyalphabetic ciphers incorporates multiple ciphers in one so a single plain te
 	|-----------|----------|------------|
 	| "Hello"   | "0123"   | "HFNOO"    |
 
-**One-time Pad Encryption Algorithms**
-
-
-
 - - -
 
 ## Visual Communication
