@@ -1,6 +1,6 @@
 # Digital Solutions 2020 Final Exam Guide
 
-*Written by Brook Jeynes and Brady Stroud*
+*Written by Brook Jeynes, Brady Stroud and Baeleigh Harris*
 
 
 # Contents
