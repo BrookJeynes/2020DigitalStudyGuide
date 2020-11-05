@@ -299,7 +299,7 @@ _
 
 What is a REST API?
 
-> **R****e**presentational
+> **R** **e**presentational
 > **S**tate
 > **T**ransfer
 > 
